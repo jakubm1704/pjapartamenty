@@ -1,0 +1,2479 @@
+{
+  "apartments": [
+    {
+      "id": 947379,
+      "slug": "florianska-classic-6",
+      "name": "Floriańska Classic 6",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 3,
+      "area": 31,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 2,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska Classic 6 — apartament z dwiema sypialniami na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 31 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 947383,
+      "slug": "florianska-classic-8",
+      "name": "Floriańska Classic 8",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 4,
+      "area": null,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska Classic 8 — studio na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób.",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 962099,
+      "slug": "florianska-top-6",
+      "name": "Floriańska Top 6",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 3,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska Top 6 — apartament z dwiema sypialniami na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 962101,
+      "slug": "florianska-top-7",
+      "name": "Floriańska Top 7",
+      "category": "3-plus",
+      "bedrooms": 3,
+      "floor": 3,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska Top 7 — apartament z trzema sypialniami na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 906907,
+      "slug": "florianska-zp-suite-i",
+      "name": "Florianska ZP (Suite I)",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 70,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 1,
+        "single": 3,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Florianska ZP (Suite I) — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 906903,
+      "slug": "florianska-classic-5",
+      "name": "Floriańska Classic 5",
+      "category": "3-plus",
+      "bedrooms": 3,
+      "floor": 2,
+      "area": 85,
+      "guests": 8,
+      "capacity": 8,
+      "beds": {
+        "double": 2,
+        "single": 4,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska Classic 5 — apartament z trzema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 8 osób. Powierzchnia 85 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 906915,
+      "slug": "florianska-11",
+      "name": "Floriańska 11",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 70,
+      "guests": 8,
+      "capacity": 8,
+      "beds": {
+        "double": 3,
+        "single": 2,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 11 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 8 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 911131,
+      "slug": "florianska-12",
+      "name": "Floriańska 12",
+      "category": "3-plus",
+      "bedrooms": 3,
+      "floor": 1,
+      "area": 80,
+      "guests": 8,
+      "capacity": 8,
+      "beds": {
+        "double": 3,
+        "single": 1,
+        "sofaBed": 3,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 12 — apartament z trzema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 8 osób. Powierzchnia 80 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921163,
+      "slug": "florianska-21",
+      "name": "Floriańska 21",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 2,
+      "area": 60,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 3,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 21 — apartament z dwiema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921167,
+      "slug": "florianska-22",
+      "name": "Floriańska 22",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 22 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921171,
+      "slug": "florianska-23",
+      "name": "Floriańska 23",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 23 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921175,
+      "slug": "florianska-24",
+      "name": "Floriańska 24",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 2,
+      "area": 65,
+      "guests": 8,
+      "capacity": 8,
+      "beds": {
+        "double": 2,
+        "single": 2,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 24 — apartament z dwiema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 8 osób. Powierzchnia 65 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921179,
+      "slug": "florianska-31",
+      "name": "Floriańska 31",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 3,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 2,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 31 — apartament z dwiema sypialniami na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921183,
+      "slug": "florianska-32",
+      "name": "Floriańska 32",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 32 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921191,
+      "slug": "florianska-33",
+      "name": "Floriańska 33",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 35,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 33 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921199,
+      "slug": "florianska-34",
+      "name": "Floriańska 34",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 3,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 34 — apartament z dwiema sypialniami na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921211,
+      "slug": "florianska-41",
+      "name": "Floriańska 41",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 4,
+      "area": 60,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 0,
+        "single": 2,
+        "sofaBed": 2,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 41 — apartament z dwiema sypialniami na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921215,
+      "slug": "florianska-42",
+      "name": "Floriańska 42",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 4,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 42 — studio na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921223,
+      "slug": "florianska-43",
+      "name": "Floriańska 43",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 4,
+      "area": 38,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska 43 — studio na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 38 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wanna",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921231,
+      "slug": "rose-deluxe-apartment",
+      "name": "Rose Deluxe Apartment",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": 60,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 2,
+        "sofa": 0
+      },
+      "address": "Kraków",
+      "description": "Rose Deluxe Apartment — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921235,
+      "slug": "green-deluxe-apartment",
+      "name": "Green Deluxe Apartment",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 2,
+      "area": 40,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "Kraków",
+      "description": "Green Deluxe Apartment — apartament z jedną sypialnią na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 40 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921267,
+      "slug": "grey-deluxe-studio",
+      "name": "Grey Deluxe Studio",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 34,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 1
+      },
+      "address": "Kraków",
+      "description": "Grey Deluxe Studio — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 34 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921287,
+      "slug": "yellow-deluxe-studio",
+      "name": "Yellow Deluxe Studio",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 0,
+      "area": 30,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "Kraków",
+      "description": "Yellow Deluxe Studio — studio na parterze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921291,
+      "slug": "black-deluxe-studio",
+      "name": "Black Deluxe Studio",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "Kraków",
+      "description": "Black Deluxe Studio — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921295,
+      "slug": "blue-standard-studio",
+      "name": "Blue Standard Studio",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "Kraków",
+      "description": "Blue Standard Studio — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921303,
+      "slug": "florianska-house",
+      "name": "Floriańska House",
+      "category": "3-plus",
+      "bedrooms": 3,
+      "floor": null,
+      "area": 95,
+      "guests": 8,
+      "capacity": 8,
+      "beds": {
+        "double": 3,
+        "single": 1,
+        "sofaBed": 2,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Floriańska House — cały dom łączący trzy sąsiednie apartamenty (Yellow, Black i Blue Studio) w jedną przestrzeń, w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 8 osób. Powierzchnia 95 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921311,
+      "slug": "krzyza-1",
+      "name": "Krzyza 1",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 0,
+      "area": 25,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Krzyża, Kraków",
+      "description": "Krzyza 1 — studio na parterze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 25 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921315,
+      "slug": "krzyza-2",
+      "name": "Krzyza 2",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 0,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Krzyża, Kraków",
+      "description": "Krzyza 2 — studio na parterze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921319,
+      "slug": "krzyza-4",
+      "name": "Krzyza 4",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 0,
+      "area": 70,
+      "guests": 6,
+      "capacity": 6,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Krzyża, Kraków",
+      "description": "Krzyza 4 — apartament z dwiema sypialniami na parterze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 6 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921323,
+      "slug": "krzyza-8",
+      "name": "Krzyza 8",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Krzyża, Kraków",
+      "description": "Krzyza 8 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921331,
+      "slug": "krzyza-9",
+      "name": "Krzyza 9",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 27,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Krzyża, Kraków",
+      "description": "Krzyza 9 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 27 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921307,
+      "slug": "krzyza-12",
+      "name": "Krzyża 12",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Krzyża, Kraków",
+      "description": "Krzyża 12 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921335,
+      "slug": "tomasza",
+      "name": "Tomasza",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 48,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 2,
+        "sofa": 0
+      },
+      "address": "ul. Tomasza, Kraków",
+      "description": "Tomasza — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 48 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 956855,
+      "slug": "stolarska-3",
+      "name": "Stolarska 3",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": null,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 3 — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób.",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921395,
+      "slug": "stolarska-4",
+      "name": "Stolarska 4",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": 40,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 4 — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 40 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921399,
+      "slug": "stolarska-5",
+      "name": "Stolarska 5",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": 45,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 5 — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 45 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921403,
+      "slug": "stolarska-6",
+      "name": "Stolarska 6",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": 50,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 6 — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 50 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921407,
+      "slug": "stolarska-7",
+      "name": "Stolarska 7",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": 42,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 7 — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 42 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921411,
+      "slug": "stolarska-8",
+      "name": "Stolarska 8",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 37,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 8 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 37 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921415,
+      "slug": "stolarska-9",
+      "name": "Stolarska 9",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 2,
+      "area": 47,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 9 — apartament z jedną sypialnią na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 47 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921419,
+      "slug": "stolarska-10",
+      "name": "Stolarska 10",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 42,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 10 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 42 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921423,
+      "slug": "stolarska-14",
+      "name": "Stolarska 14",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 2,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 14 — apartament z jedną sypialnią na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921427,
+      "slug": "stolarska-15",
+      "name": "Stolarska 15",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 45,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 15 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 45 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921431,
+      "slug": "stolarska-16",
+      "name": "Stolarska 16",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 3,
+      "area": 50,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 16 — apartament z jedną sypialnią na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 50 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wanna",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921435,
+      "slug": "stolarska-17",
+      "name": "Stolarska 17",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 1,
+        "single": 3,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 17 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921439,
+      "slug": "stolarska-19",
+      "name": "Stolarska 19",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 2,
+      "area": 55,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 19 — apartament z jedną sypialnią na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 55 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 947375,
+      "slug": "stolarska-20",
+      "name": "Stolarska 20",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 2,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 20 — apartament z dwiema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921443,
+      "slug": "stolarska-21",
+      "name": "Stolarska 21",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 2,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 21 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921447,
+      "slug": "stolarska-22",
+      "name": "Stolarska 22",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 2,
+      "area": 60,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Stolarska, Kraków",
+      "description": "Stolarska 22 — apartament z dwiema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 60 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921451,
+      "slug": "lubicz-8",
+      "name": "Lubicz 8",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 70,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 1,
+        "single": 2,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Lubicz, Kraków",
+      "description": "Lubicz 8 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wanna",
+        "Balkon",
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921455,
+      "slug": "lubicz-9",
+      "name": "Lubicz 9",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 70,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Lubicz, Kraków",
+      "description": "Lubicz 9 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Balkon",
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921459,
+      "slug": "lubicz-31",
+      "name": "Lubicz 31",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 4,
+      "area": 50,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Lubicz, Kraków",
+      "description": "Lubicz 31 — apartament z jedną sypialnią na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 50 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wanna",
+        "Balkon",
+        "Pralka",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 956845,
+      "slug": "jana-4",
+      "name": "Jana 4",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": null,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 1
+      },
+      "address": "ul. Jana, Kraków",
+      "description": "Jana 4 — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób.",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921467,
+      "slug": "jana-8",
+      "name": "Jana 8",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 80,
+      "guests": 6,
+      "capacity": 6,
+      "beds": {
+        "double": 3,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Jana, Kraków",
+      "description": "Jana 8 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 6 osób. Powierzchnia 80 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921471,
+      "slug": "jana-10",
+      "name": "Jana 10",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": 50,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 2,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Jana, Kraków",
+      "description": "Jana 10 — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 50 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921475,
+      "slug": "jana-19",
+      "name": "Jana 19",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 2,
+      "area": 75,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 1,
+        "single": 3,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Jana, Kraków",
+      "description": "Jana 19 — apartament z dwiema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 75 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921479,
+      "slug": "jana-20",
+      "name": "Jana 20",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 35,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Jana, Kraków",
+      "description": "Jana 20 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921483,
+      "slug": "szpitalna-a1",
+      "name": "Szpitalna A1",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 0,
+      "area": null,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna A1 — apartament z jedną sypialnią na parterze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób.",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921487,
+      "slug": "szpitalna-a2",
+      "name": "Szpitalna A2",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": null,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna A2 — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób.",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921491,
+      "slug": "szpitalna-a3",
+      "name": "Szpitalna A3",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 2,
+      "area": null,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna A3 — apartament z jedną sypialnią na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób.",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921495,
+      "slug": "szpitalna-a4",
+      "name": "Szpitalna A4",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 3,
+      "area": null,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna A4 — apartament z jedną sypialnią na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób.",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921499,
+      "slug": "szpitalna-a5",
+      "name": "Szpitalna A5",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 4,
+      "area": null,
+      "guests": 7,
+      "capacity": 7,
+      "beds": {
+        "double": 0,
+        "single": 0,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna A5 — apartament z dwiema sypialniami na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 7 osób.",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921503,
+      "slug": "szpitalna-3",
+      "name": "Szpitalna 3",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 1,
+      "area": 70,
+      "guests": 7,
+      "capacity": 7,
+      "beds": {
+        "double": 2,
+        "single": 2,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna 3 — apartament z dwiema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 7 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921507,
+      "slug": "szpitalna-5",
+      "name": "Szpitalna 5",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 2,
+      "area": 70,
+      "guests": 5,
+      "capacity": 5,
+      "beds": {
+        "double": 2,
+        "single": 2,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna 5 — apartament z dwiema sypialniami na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 5 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Wanna",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921511,
+      "slug": "szpitalna-12",
+      "name": "Szpitalna 12",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 4,
+      "area": 70,
+      "guests": 7,
+      "capacity": 7,
+      "beds": {
+        "double": 3,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna 12 — apartament z dwiema sypialniami na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 7 osób. Powierzchnia 70 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921515,
+      "slug": "szpitalna-12a",
+      "name": "Szpitalna 12a",
+      "category": "2-sypialnie",
+      "bedrooms": 2,
+      "floor": 4,
+      "area": 80,
+      "guests": 6,
+      "capacity": 6,
+      "beds": {
+        "double": 3,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna 12a — apartament z dwiema sypialniami na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 6 osób. Powierzchnia 80 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921519,
+      "slug": "szpitalna-14",
+      "name": "Szpitalna 14",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 4,
+      "area": 50,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Szpitalna, Kraków",
+      "description": "Szpitalna 14 — apartament z jedną sypialnią na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 50 m².",
+      "images": [],
+      "amenities": [
+        "Balkon",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921523,
+      "slug": "slawkowska-5",
+      "name": "Sławkowska 5",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Sławkowska, Kraków",
+      "description": "Sławkowska 5 — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921527,
+      "slug": "slawkowska-11",
+      "name": "Sławkowska 11",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 35,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Sławkowska, Kraków",
+      "description": "Sławkowska 11 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921531,
+      "slug": "gertrudy",
+      "name": "Gertrudy",
+      "category": "3-plus",
+      "bedrooms": 4,
+      "floor": 1,
+      "area": 180,
+      "guests": 8,
+      "capacity": 8,
+      "beds": {
+        "double": 4,
+        "single": 0,
+        "sofaBed": 2,
+        "sofa": 3
+      },
+      "address": "ul. Gertrudy, Kraków",
+      "description": "Gertrudy — apartament z czterema sypialniami na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 8 osób. Powierzchnia 180 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wanna",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921535,
+      "slug": "bosacka",
+      "name": "Bosacka",
+      "category": "1-sypialnia",
+      "bedrooms": 1,
+      "floor": 1,
+      "area": 45,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Bosacka, Kraków",
+      "description": "Bosacka — apartament z jedną sypialnią na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 45 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 954669,
+      "slug": "koletek",
+      "name": "Koletek",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 35,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Koletek, Kraków",
+      "description": "Koletek — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921539,
+      "slug": "barbakan-1",
+      "name": "Barbakan 1",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": 37,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 2,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 1 — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 37 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921547,
+      "slug": "barbakan-2",
+      "name": "Barbakan 2",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 1,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 2 — studio na 1. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921551,
+      "slug": "barbakan-3",
+      "name": "Barbakan 3",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 37,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 2,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 3 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 37 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921555,
+      "slug": "barbakan-4",
+      "name": "Barbakan 4",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 2,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 4 — studio na 2. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921559,
+      "slug": "barbakan-5",
+      "name": "Barbakan 5",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 37,
+      "guests": 4,
+      "capacity": 4,
+      "beds": {
+        "double": 1,
+        "single": 2,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 5 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 4 osób. Powierzchnia 37 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921563,
+      "slug": "barbakan-6",
+      "name": "Barbakan 6",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 3,
+      "area": 35,
+      "guests": 3,
+      "capacity": 3,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 6 — studio na 3. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 3 osób. Powierzchnia 35 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921571,
+      "slug": "barbakan-7",
+      "name": "Barbakan 7",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 4,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 0,
+        "sofaBed": 1,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 7 — studio na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    },
+    {
+      "id": 921575,
+      "slug": "barbakan-8",
+      "name": "Barbakan 8",
+      "category": "studio",
+      "bedrooms": 0,
+      "floor": 4,
+      "area": 30,
+      "guests": 2,
+      "capacity": 2,
+      "beds": {
+        "double": 1,
+        "single": 1,
+        "sofaBed": 0,
+        "sofa": 0
+      },
+      "address": "ul. Floriańska, Kraków",
+      "description": "Barbakan 8 — studio na 4. piętrze w centrum Krakowa, w odległości spaceru od Rynku Głównego. Optymalnie dla 2 osób. Powierzchnia 30 m².",
+      "images": [],
+      "amenities": [
+        "Klimatyzacja",
+        "Wi-Fi",
+        "Telewizor",
+        "Aneks kuchenny lub kuchnia z wyposażeniem",
+        "Łazienka",
+        "Suszarka do włosów",
+        "Pościel"
+      ]
+    }
+  ],
+  "attractions": [
+    {
+      "id": 1,
+      "name": "Rynek Główny i Sukiennice",
+      "area": "Stare Miasto",
+      "shortDesc": "Największy średniowieczny rynek w Europie, kilka minut spacerem od Floriańskiej. W jego sercu stoją renesansowe Sukiennice z kramami rzemieślniczymi.",
+      "longDesc": "Rynek Główny to serce Krakowa i jeden z największych średniowiecznych placów miejskich w Europie — od naszych apartamentów przy Floriańskiej dzieli go zaledwie kilka minut spaceru. Pośrodku placu stoją renesansowe Sukiennice, dawna hala targowa, dziś pełna kramów z pamiątkami i rękodziełem, a pod nimi kryje się podziemne muzeum opowiadające o średniowiecznym Krakowie. Wokół rynku tętnią kawiarnie, restauracje i uliczni artyści — to naturalny punkt startowy każdego zwiedzania miasta.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ERynek%20G%C5%82%C3%B3wny%20i%20Sukiennice%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ERynek%20G%C5%82%C3%B3wny%20i%20Sukiennice%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ERynek%20G%C5%82%C3%B3wny%20i%20Sukiennice%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ERynek%20G%C5%82%C3%B3wny%20i%20Sukiennice%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bazylika Mariacka",
+      "area": "Stare Miasto",
+      "shortDesc": "Gotycki kościół z ołtarzem Wita Stwosza — co godzinę z wyższej wieży rozbrzmiewa hejnał mariacki, słyszalny w całym centrum.",
+      "longDesc": "Bazylika Mariacka to gotycki kościół przy Rynku Głównym, znany z asymetrycznych wież i monumentalnego, drewnianego ołtarza Wita Stwosza we wnętrzu. Co godzinę z wyższej wieży rozbrzmiewa hejnał mariacki — melodia urywająca się w tym samym, charakterystycznym miejscu, nawiązująca do legendy o strażniku przerwanym przez najazd. Warto wejść na wieżę widokową, skąd rozpościera się widok na całe Stare Miasto.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBazylika%20Mariacka%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBazylika%20Mariacka%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBazylika%20Mariacka%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBazylika%20Mariacka%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brama Floriańska i Barbakan",
+      "area": "Stare Miasto",
+      "shortDesc": "Fragment dawnych murów obronnych Krakowa — dosłownie u wylotu ulicy Floriańskiej, przy której mieszkasz.",
+      "longDesc": "Brama Floriańska i stojący nieopodal Barbakan to najlepiej zachowany fragment średniowiecznych murów obronnych Krakowa — i dosłownie punkt, w którym zaczyna się ulica Floriańska, przy której znajdują się nasze apartamenty. Barbakan, okrągła forteca z basztami, należy do nielicznych tak dobrze zachowanych budowli obronnych tego typu w Europie. To naturalna brama do Starego Miasta — stąd zaczynają się spacery w stronę Rynku.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBrama%20Floria%C5%84ska%20i%20Barbakan%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBrama%20Floria%C5%84ska%20i%20Barbakan%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBrama%20Floria%C5%84ska%20i%20Barbakan%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBrama%20Floria%C5%84ska%20i%20Barbakan%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wawel — zamek i katedra",
+      "area": "Stare Miasto",
+      "shortDesc": "Wzgórze królewskie z zamkiem, katedrą koronacyjną polskich władców i legendarną Smoczą Jamą nad Wisłą.",
+      "longDesc": "Wzgórze wawelskie to symbol polskiej państwowości — mieści się na nim Zamek Królewski oraz katedra, w której przez wieki koronowano i chowano polskich władców. Zwiedzić można komnaty reprezentacyjne, prywatne apartamenty królewskie, skarbiec i zbrojownię, a pod wzgórzem, nad samą Wisłą, znajduje się legendarna Smocza Jama. To jedno z najczęściej odwiedzanych miejsc w Polsce — warto zarezerwować bilety na konkretne godziny z wyprzedzeniem.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EWawel%20%E2%80%94%20zamek%20i%20katedra%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EWawel%20%E2%80%94%20zamek%20i%20katedra%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EWawel%20%E2%80%94%20zamek%20i%20katedra%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EWawel%20%E2%80%94%20zamek%20i%20katedra%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ulica Floriańska",
+      "area": "Stare Miasto",
+      "shortDesc": "Jedna z najstarszych i najbardziej reprezentacyjnych ulic Krakowa, łącząca Rynek Główny z Bramą Floriańską — pełna kawiarni, restauracji i sklepów.",
+      "longDesc": "Ulica Floriańska, przy której znajdują się nasze apartamenty, to jeden z najstarszych i najbardziej reprezentacyjnych traktów Krakowa, łączący Rynek Główny z Bramą Floriańską. Wzdłuż niej stoją kamienice z bogatą historią, a w ich parterach — kawiarnie, restauracje i sklepy, dzięki którym większość codziennych potrzeb załatwisz, nie oddalając się od apartamentu. To też część Drogi Królewskiej, którą przechodziły dawne orszaki koronacyjne.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EUlica%20Floria%C5%84ska%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EUlica%20Floria%C5%84ska%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EUlica%20Floria%C5%84ska%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EUlica%20Floria%C5%84ska%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Planty",
+      "area": "Stare Miasto",
+      "shortDesc": "Pierścień parkowy otaczający Stare Miasto w miejscu dawnych murów obronnych — świetny na spokojny spacer między zwiedzaniem.",
+      "longDesc": "Planty to pas zieleni okalający całe Stare Miasto w miejscu dawnych, średniowiecznych murów obronnych, rozebranych na początku XIX wieku. To ulubione miejsce spacerów mieszkańców i gości — z alejkami, ławkami i pomnikami, doskonałe na chwilę odpoczynku między kolejnymi punktami zwiedzania. Okrążenie całych Plant pieszo zajmuje około pół godziny.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlanty%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlanty%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlanty%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlanty%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Plac Nowy",
+      "area": "Kazimierz",
+      "shortDesc": "Serce nocnego życia Kazimierza — targowisko za dnia, skupisko barów i kultowych zapiekanek po zmroku.",
+      "longDesc": "Plac Nowy to nieformalne centrum Kazimierza — za dnia działa tu lokalny targ, a po zmroku plac i okoliczne uliczki zapełniają się gośćmi kawiarni i barów. To też miejsce narodzin kultowych krakowskich zapiekanek, sprzedawanych w okrągłym pawilonie na środku placu, czynnym właściwie całą dobę. Stąd blisko już do większości klimatycznych zakątków dzielnicy.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Nowy%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Nowy%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Nowy%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Nowy%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Synagogi i dziedzictwo żydowskie",
+      "area": "Kazimierz",
+      "shortDesc": "Stara Synagoga, Synagoga Remuh z cmentarzem czy Synagoga Tempel przypominają o wielowiekowej historii dzielnicy.",
+      "longDesc": "Kazimierz był przez wieki centrum życia żydowskiego w Krakowie, a ślady tej historii widać do dziś — Stara Synagoga (dziś oddział Muzeum Krakowa), Synagoga Remuh z zabytkowym cmentarzem czy secesyjna Synagoga Tempel to tylko część zachowanych obiektów. Wiele z nich można zwiedzić od środka, poznając historię społeczności, która współtworzyła dzielnicę przez ponad pięćset lat.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ESynagogi%20i%20dziedzictwo%20%C5%BCydowskie%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ESynagogi%20i%20dziedzictwo%20%C5%BCydowskie%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ESynagogi%20i%20dziedzictwo%20%C5%BCydowskie%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3ESynagogi%20i%20dziedzictwo%20%C5%BCydowskie%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Kameralne uliczki Kazimierza",
+      "area": "Kazimierz",
+      "shortDesc": "Kazimierz to też kawiarnie, galerie i lokalne knajpki w klimatycznych, niewielkich kamienicach — idealne do zwiedzania bez planu.",
+      "longDesc": "Poza znanymi punktami na mapie, Kazimierz najlepiej poznaje się bez konkretnego planu — wystarczy skręcić w boczną uliczkę, by trafić na kameralną kawiarnię, galerię sztuki albo lokalną knajpkę w niewielkiej, secesyjnej kamienicy. To dzielnica, w której warto po prostu zwolnić i dać się prowadzić przypadkowi.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EKameralne%20uliczki%20Kazimierza%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EKameralne%20uliczki%20Kazimierza%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EKameralne%20uliczki%20Kazimierza%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EKameralne%20uliczki%20Kazimierza%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fabryka Emalia Oskara Schindlera",
+      "area": "Podgórze",
+      "shortDesc": "Muzeum w dawnej fabryce Schindlera opowiada historię okupowanego Krakowa — jedna z najważniejszych tras historycznych w mieście.",
+      "longDesc": "W dawnej Fabryce Emalia Oskara Schindlera działa dziś oddział Muzeum Krakowa poświęcony okupacji niemieckiej w latach 1939–1945. Wystawa w przystępny, multimedialny sposób opowiada historię miasta i jego mieszkańców w tym okresie, w tym losy robotników zatrudnionych przez Schindlera. To jedna z najważniejszych i najczęściej odwiedzanych tras historycznych w Krakowie — warto zarezerwować bilet wcześniej.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EFabryka%20Emalia%20Oskara%20Schindlera%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EFabryka%20Emalia%20Oskara%20Schindlera%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EFabryka%20Emalia%20Oskara%20Schindlera%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EFabryka%20Emalia%20Oskara%20Schindlera%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Plac Bohaterów Getta",
+      "area": "Podgórze",
+      "shortDesc": "Miejsce pamięci po dawnym krakowskim getcie, z instalacją pustych krzeseł upamiętniającą jego mieszkańców.",
+      "longDesc": "Plac Bohaterów Getta był w czasie wojny centralnym punktem krakowskiego getta. Dziś upamiętnia go instalacja kilkudziesięciu metalowych, pustych krzeseł — symbol mieszkańców wysiedlonych i zamordowanych w czasie okupacji. Przy placu stoi też dawna Apteka pod Orłem, kolejny oddział Muzeum Krakowa, prowadzony przez polskiego farmaceutę, który pomagał mieszkańcom getta.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Bohater%C3%B3w%20Getta%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Bohater%C3%B3w%20Getta%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Bohater%C3%B3w%20Getta%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EPlac%20Bohater%C3%B3w%20Getta%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Bulwary Wiślane",
+      "area": "Podgórze",
+      "shortDesc": "Spacerowe i rowerowe bulwary nad Wisłą, z widokiem na Wawel — świetne miejsce na wieczorny spacer.",
+      "longDesc": "Bulwary nad Wisłą to ulubione miejsce mieszkańców Krakowa na spacer, przejażdżkę rowerem czy wieczorny odpoczynek z widokiem na podświetlony Wawel. Po stronie podgórskiej bulwary są nieco spokojniejsze niż te bliżej centrum, co czyni je dobrym miejscem na chwilę wytchnienia od zwiedzania. W sezonie kursują też stąd rejsy statkiem po Wiśle.",
+      "image": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBulwary%20Wi%C5%9Blane%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBulwary%20Wi%C5%9Blane%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBulwary%20Wi%C5%9Blane%20%E2%80%94%20widok%202%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3EBulwary%20Wi%C5%9Blane%20%E2%80%94%20widok%203%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    }
+  ],
+  "areaIntro": {
+    "Stare Miasto": "Serce Krakowa, wpisane na listę UNESCO — i najbliższa okolica naszych apartamentów.",
+    "Kazimierz": "Dawna żydowska dzielnica Krakowa, dziś jedna z najbardziej klimatycznych części miasta — kilkanaście minut spacerem od Floriańskiej.",
+    "Podgórze": "Po drugiej stronie Wisły, naprzeciw Kazimierza — dzielnica naznaczona historią II wojny światowej i dziś tętniąca nowym życiem."
+  },
+  "pages": {
+    "parking": {
+      "title": "Parking dla naszych gości",
+      "location": "ul. Lubicz 17a",
+      "price": "80 zł / doba",
+      "description": "Dla gości naszych apartamentów przy Starym Mieście oferujemy miejsce na bezpiecznym, strzeżonym parkingu podziemnym przy ulicy Lubicz 17a — kilka minut spacerem od Floriańskiej i Rynku Głównego. Liczba miejsc jest ograniczona, dlatego parking wymaga wcześniejszej rezerwacji.",
+      "images": [
+        "/assets/images/parking-wjazd.jpg",
+        "/assets/images/parking-wnetrze.jpg"
+      ]
+    },
+    "sniadania": {
+      "title": "Śniadania w apartamencie",
+      "hours": "8:30–9:30",
+      "price": "40 zł / osoba",
+      "description": "Każdego ranka dostarczamy do apartamentu świeże śniadanie kontynentalne — pieczywo, wędliny i sery, dżemy, nabiał oraz dodatki, w zależności od dostępności sezonowej.",
+      "images": [
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%237A3B2A%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2354281D%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%C5%9Aniadanie%20P%26J%20Apartamenty%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23C79A16%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238F700F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%C5%9Aniadanie%20P%26J%20Apartamenty%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23241C12%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233A2F1E%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%C5%9Aniadanie%20P%26J%20Apartamenty%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E",
+        "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22600%22%20viewBox%3D%220%200%20800%20600%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23574C39%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23332B1F%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22800%22%20height%3D%22600%22%20fill%3D%22url(%23g)%22%2F%3E%0A%20%20%20%20%20%20%3Cg%20opacity%3D%220.16%22%20fill%3D%22%23FFFDF8%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22120%22%20cy%3D%22480%22%20r%3D%22180%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22700%22%20cy%3D%2290%22%20r%3D%22140%22%2F%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2252%25%22%20font-family%3D%22Georgia%2C%20serif%22%20font-size%3D%2234%22%20fill%3D%22%23FFFDF8%22%0A%20%20%20%20%20%20%20%20%20%20%20%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22middle%22%3E%C5%9Aniadanie%20P%26J%20Apartamenty%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2250%25%22%20y%3D%2260%25%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2215%22%20letter-spacing%3D%221%22%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3D%22%23FFFDF8%22%20fill-opacity%3D%220.75%22%20text-anchor%3D%22middle%22%3Ezdj%C4%99cie%20przyk%C5%82adowe%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+      ]
+    }
+  },
+  "apartmentsVersion": 4
+}

@@ -1,0 +1,112 @@
+/* Panel administracyjny — korzysta ze zmiennych kolorów z /css/style.css */
+
+body{ background: var(--bg-alt); }
+
+/* ---------- Ekran logowania ---------- */
+.login-screen{
+  min-height: 100vh; display:flex; align-items:center; justify-content:center;
+  padding: 24px;
+}
+.login-card{
+  background: var(--surface); border:1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 40px 36px; width:100%; max-width: 360px;
+  box-shadow: 0 30px 60px -30px rgba(36,28,18,.35);
+  text-align:center;
+}
+.login-logo{ height:56px; width:auto; margin: 0 auto 18px; }
+.login-card h1{ font-size:1.3rem; margin-bottom: 22px; }
+.login-card form{ display:flex; flex-direction:column; gap:14px; text-align:left; }
+.login-card label{ font-size:.86rem; font-weight:600; color: var(--ink-soft); display:flex; flex-direction:column; gap:6px; }
+.login-card input{
+  font: inherit; font-size:.96rem; padding:.7em .85em;
+  border:1px solid var(--line); border-radius: var(--radius); background: var(--bg);
+}
+.login-card button{ margin-top:6px; }
+.error{ color: var(--brick); font-size:.86rem; min-height:1.2em; margin:0; }
+
+/* ---------- Powłoka panelu ---------- */
+.admin-shell{ min-height:100vh; display:flex; flex-direction:column; }
+.admin-header{
+  display:flex; align-items:center; gap:24px;
+  background: var(--surface); border-bottom:1px solid var(--line);
+  padding: 12px 24px;
+}
+.admin-logo{ height:38px; width:auto; }
+.admin-tabs{ display:flex; gap:6px; margin-right:auto; flex-wrap:wrap; }
+.admin-tabs button{
+  font: inherit; font-size:.9rem; font-weight:600; color: var(--ink-soft);
+  background:none; border:1px solid transparent; border-radius: var(--radius);
+  padding:.5em 1em; cursor:pointer;
+}
+.admin-tabs button:hover{ color: var(--ink); }
+.admin-tabs button.active{ background: var(--ink); color:#F4EFE2; }
+.admin-user{ display:flex; align-items:center; gap:12px; font-size:.88rem; color: var(--ink-soft); }
+
+.admin-content{
+  flex:1; display:grid; grid-template-columns: 280px 1fr; gap:0;
+  max-width: 1280px; width:100%; margin-inline:auto;
+}
+@media (max-width: 800px){
+  .admin-content{ grid-template-columns: 1fr; }
+}
+
+/* ---------- Lista (apartamenty / atrakcje) ---------- */
+.list-panel{
+  border-right:1px solid var(--line); padding: 20px;
+  display:flex; flex-direction:column; gap:12px;
+  max-height: calc(100vh - 64px); overflow-y:auto;
+}
+.search-input{
+  font: inherit; padding:.6em .8em; border:1px solid var(--line); border-radius: var(--radius);
+  background: var(--surface);
+}
+.list{ display:flex; flex-direction:column; gap:6px; }
+.list-item{
+  text-align:left; font: inherit; background: var(--surface); border:1px solid var(--line);
+  border-radius: var(--radius); padding: .6em .8em; cursor:pointer;
+  display:flex; flex-direction:column; gap:2px;
+}
+.list-item:hover{ border-color: var(--brass); }
+.list-item strong{ font-size:.92rem; }
+.list-item span{ font-size:.78rem; color: var(--ink-faint); }
+
+/* ---------- Panel edycji ---------- */
+.edit-panel{ padding: 28px 32px; display:grid; grid-template-columns: 1.2fr 1fr; gap:36px; align-items:start; }
+.edit-panel.wide{ grid-template-columns: 1.2fr 1fr; }
+@media (max-width: 900px){ .edit-panel{ grid-template-columns:1fr; } }
+.edit-panel .hint{ color: var(--ink-faint); grid-column: 1 / -1; }
+
+.edit-panel form{ display:flex; flex-direction:column; gap:14px; }
+.edit-panel label{ font-size:.86rem; font-weight:600; color: var(--ink-soft); display:flex; flex-direction:column; gap:6px; }
+.edit-panel input, .edit-panel select, .edit-panel textarea{
+  font: inherit; font-size:.95rem; padding:.65em .8em;
+  border:1px solid var(--line); border-radius: var(--radius); background: var(--surface);
+}
+.edit-panel textarea{ resize:vertical; min-height: 90px; }
+.field-row{ display:grid; grid-template-columns: repeat(3,1fr); gap:12px; }
+.save-msg{ font-size:.86rem; color: var(--ok); min-height:1.2em; margin:0; }
+
+/* ---------- Zdjęcia ---------- */
+.photos-panel h3{ margin-bottom:12px; }
+.photo-grid{
+  display:grid; grid-template-columns: repeat(3, 1fr); gap:10px; margin-bottom:14px;
+}
+.photo-thumb{
+  position:relative; aspect-ratio: 4/3; border-radius: var(--radius); overflow:hidden;
+  border:1px solid var(--line);
+}
+.photo-thumb img{ width:100%; height:100%; object-fit:cover; display:block; }
+.photo-delete{
+  position:absolute; top:4px; right:4px; width:22px; height:22px; border-radius:50%;
+  background: rgba(36,28,18,.75); color:#fff; border:none; cursor:pointer; font-size:14px; line-height:1;
+}
+.photo-delete:hover{ background: var(--brick); }
+.upload-btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  font-size:.88rem; font-weight:600; color: var(--ink);
+  border:1px dashed var(--line); border-radius: var(--radius);
+  padding:.7em 1em; cursor:pointer; background: var(--surface);
+}
+.upload-btn:hover{ border-color: var(--brass); }
+
+.loading{ padding: 40px; color: var(--ink-faint); }
