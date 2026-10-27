@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Apartamenty Kraków Stare Miasto | P&amp;J Apartamenty — Floriańska 39</title>
 <meta name="description" content="Ponad 70 apartamentów na terenie Starego Miasta w Krakowie, przy Floriańskiej i w okolicy Rynku Głównego — z aneksem kuchennym lub kuchnią i łazienką. Sprawdź dostępność i zarezerwuj online.">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=7">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="P&amp;J Apartamenty">
@@ -123,6 +123,32 @@
     </div>
   </section>
 
+  <section class="amenities" id="udogodnienia" aria-labelledby="amenitiesTitle">
+    <div class="container">
+      <h2 id="amenitiesTitle">Nasze udogodnienia</h2>
+      <div class="amenity-grid">
+        <a class="amenity" href="sniadania.html"><span class="amenity-circle"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 22h24v6a10 10 0 0 1-10 10h-4a10 10 0 0 1-10-10z"/><path d="M34 24h3a4 4 0 0 1 0 8h-4"/><path d="M17 8c-2 3 2 4 0 7M23 8c-2 3 2 4 0 7M29 8c-2 3 2 4 0 7"/></svg></span><span class="amenity-label">Śniadania</span></a>
+        <a class="amenity" href="parking.html"><span class="amenity-circle"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="7" width="30" height="34" rx="6"/><path d="M19 33V16h7a6 6 0 0 1 0 12h-7"/></svg></span><span class="amenity-label">Parking</span></a>
+        <div class="amenity"><span class="amenity-circle"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="21" r="4"/><circle cx="23" cy="14" r="4"/><circle cx="33" cy="14" r="4"/><circle cx="41" cy="22" r="3.5"/><path d="M27 24c-6 0-12 6-12 11 0 4 4 5 8 4 3-1 7-1 10 0 4 1 8 0 8-4 0-5-8-11-14-11z" transform="translate(-4 0)"/></svg></span><span class="amenity-label">Akceptujemy zwierzęta</span></div>
+        <div class="amenity"><span class="amenity-circle"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 22h32v4a12 12 0 0 1-12 12h-8A12 12 0 0 1 8 26z"/><path d="M6 22h36"/><path d="M24 22v-4M20 14a4 4 0 0 1 8 0"/><path d="M14 42h20"/></svg></span><span class="amenity-label">Kuchnia</span></div>
+        <a class="amenity" href="okolica.html"><span class="amenity-circle"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 41V20l8-6 8 6v21"/><path d="M24 41V12l8-7 8 7v29"/><path d="M5 41h38"/><path d="M13 41v-9a3 3 0 0 1 6 0v9M29 41v-9a3 3 0 0 1 6 0v9"/></svg></span><span class="amenity-label">Stare Miasto</span></a>
+        <a class="amenity" href="transfery.html"><span class="amenity-circle"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M42 10L8 24l10 4 4 10z"/><path d="M18 28l24-18"/></svg></span><span class="amenity-label">Transfer z lotniska</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews" aria-labelledby="reviewsTitle" hidden>
+    <div class="reviews-bg"><img src="assets/images/hero-rynek-glowny.jpg" alt="" loading="lazy"></div>
+    <div class="container">
+      <h2 id="reviewsTitle">Opinie naszych gości</h2>
+      <div class="reviews-wrap">
+        <button class="reviews-nav prev" type="button" aria-label="Poprzednie opinie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 6l-6 6 6 6"/></svg></button>
+        <div class="reviews-viewport"><div class="reviews-track" id="reviewsTrack"></div></div>
+        <button class="reviews-nav next" type="button" aria-label="Następne opinie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </section>
+
   <section class="block alt">
     <div class="container">
       <div class="block-head">
@@ -194,11 +220,12 @@
       </div>
     </div>
   </div>
-  <div class="footer-bottom">© <span id="year"></span> P&amp;J Apartamenty. Wszystkie prawa zastrzeżone.</div>
+  <div class="footer-bottom"><div class="footer-legal"><a href="polityka-prywatnosci.html">Polityka prywatności i RODO</a><a href="regulamin.html">Regulamin</a><button type="button" class="linklike" data-cookie-settings>Ustawienia cookies</button></div>© <span id="year"></span> P&amp;J Apartamenty. Wszystkie prawa zastrzeżone.</div>
 </footer>
 
-<script src="js/config-data.js?v=4"></script>
-<script src="js/main.js?v=4"></script>
+<script src="js/config-data.js?v=7"></script>
+<script src="js/consent.js?v=7"></script>
+<script src="js/main.js?v=7"></script>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

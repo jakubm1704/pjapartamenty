@@ -6,7 +6,10 @@ const fs = require("fs");
 const path = require("path");
 const multer = require("multer");
 
-const UPLOADS_ROOT = path.join(__dirname, "..", "uploads");
+// Przy ustawionym DATA_DIR zdjęcia trafiają do <DATA_DIR>/uploads (jeden trwały dysk na dane i zdjęcia).
+const UPLOADS_ROOT = process.env.DATA_DIR
+  ? path.join(path.resolve(process.env.DATA_DIR), "uploads")
+  : path.join(__dirname, "..", "uploads");
 
 const ALLOWED_MIME = new Set(["image/jpeg", "image/png", "image/webp", "image/gif"]);
 const MIME_EXT = {

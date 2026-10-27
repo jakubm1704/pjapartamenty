@@ -16,7 +16,9 @@ const CONFIG = {
   email: "info@apartmentcracow.com",
 
   // Mapa Google — wersja embed bez klucza API (działa "z pudełka").
-  mapEmbedUrl: "https://www.google.com/maps?q=Flori%C5%84ska+39%2C+Krak%C3%B3w&output=embed",
+  // Mapa OpenStreetMap — wyświetla się od razu, bez plików cookies śledzących (nie wymaga zgody).
+  // Mapa Google zapisuje cookies, więc przy jej użyciu mapa ładuje się dopiero po kliknięciu.
+  mapEmbedUrl: "https://www.openstreetmap.org/export/embed.html?bbox=19.9368%2C50.0618%2C19.9448%2C50.0658&layer=mapnik&marker=50.0637976%2C19.9408668",
   mapLinkUrl: "https://www.google.com/maps/search/?api=1&query=Flori%C5%84ska+39%2C+Krak%C3%B3w",
 
   // --- Rezerwacje (silnik PREVIO osadzony na stronie rezerwacja.html) ---
@@ -30,11 +32,23 @@ const CONFIG = {
 
   // --- Social media i język -----------------------------------------
   // PODMIEŃ na właściwe adresy profili (dziś: strony główne serwisów).
-  facebookUrl: "https://www.facebook.com/",
-  instagramUrl: "https://www.instagram.com/",
+  facebookUrl: "https://www.facebook.com/PJapartments/",
+  instagramUrl: "https://www.instagram.com/pj_apartments",
   // Adres angielskiej wersji strony (np. "en/index.html"). Dopóki puste,
   // przełącznik EN jest widoczny, ale nieaktywny ("wkrótce").
   englishSiteUrl: "",
+  // Narzędzia analityczne i reklamowe. Wpisz identyfikatory — dopóki są puste, nic się nie ładuje i baner zgody się nie pokazuje.
+  tracking: {
+    gaMeasurementId: "",   // np. "G-XXXXXXXXXX" (Google Analytics 4)
+    metaPixelId: ""        // np. "1234567890123456" (Meta Pixel)
+  },
+  googleReviewsUrl: "https://maps.app.goo.gl/SQtUV1TEZ6nnmDgn6",
+  // Opinie z wizytówki Google. Dodawaj kolejne w tej samej formie: { name, rating (1-5), text }.
+  reviews: [
+    { name: "Małgorzata Skroban", rating: 5, text: "Apartament przestronny z dużą łazienką, aneksem i antresolą. jedyny minus to czwartek piętro. Obsługa pomocna, po zgłoszeniu awarii klimatyzacji, została on…" },
+    { name: "Tomasz Kulis", rating: 5, text: "Super." },
+    { name: "Dominik Gomuła", rating: 5, text: "P&J zapewniło nam mieszkanie „z duszą”, dzięki któremu mogliśmy poczuć się jak rodowici krakowianie. Doświadczyliśmy niezwykłej podróży w…" }
+  ],
 };
 
 // Kategorie apartamentów używane w wyszukiwarce, module kategorii i filtrach.

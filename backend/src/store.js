@@ -9,7 +9,8 @@ const fs = require("fs");
 const path = require("path");
 const { buildSeedContent, generateApartments, apartmentsDataVersion } = require("./seed");
 
-const DATA_DIR = path.join(__dirname, "..", "data");
+// DATA_DIR (zmienna środowiskowa) pozwala trzymać dane i zdjęcia na jednym, trwałym dysku hostingu.
+const DATA_DIR = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.join(__dirname, "..", "data");
 const DATA_FILE = path.join(DATA_DIR, "content.json");
 
 let migrationChecked = false;
