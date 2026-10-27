@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Kontakt — P&amp;J Apartamenty, ul. Floriańska 39, Kraków</title>
 <meta name="description" content="Skontaktuj się z P&J Apartamenty — adres, telefon, e-mail i formularz kontaktowy. Znajdziesz nas przy Floriańskiej 39 w centrum Krakowa.">
-<link rel="stylesheet" href="css/style.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=7">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
 <meta property="og:site_name" content="P&amp;J Apartamenty">
@@ -72,6 +72,9 @@
             <dt>E-mail</dt>
             <dd><a data-config="email" href="#"></a></dd>
           </dl>
+          <p class="doc-links">
+            <a href="regulamin.html">Regulamin najmu</a> · <a href="polityka-prywatnosci.html">Polityka prywatności i RODO</a>
+          </p>
           <p style="margin-top:20px;">
             <a class="btn btn-outline" data-map-link href="#" target="_blank" rel="noopener">Otwórz w Mapach Google</a>
           </p>
@@ -100,6 +103,7 @@
           <textarea id="cf-message" name="message" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Wyślij wiadomość</button>
+        <p class="form-note">Wysyłając formularz, przekazujesz nam dane potrzebne do odpowiedzi — szczegóły w <a href="polityka-prywatnosci.html" style="text-decoration:underline;">polityce prywatności</a>.</p>
         <p class="form-note">Formularz jest wersją demonstracyjną — żeby wiadomości naprawdę do nas docierały, trzeba podłączyć go do usługi wysyłki e-mail (patrz README.md).</p>
       </form>
     </div>
@@ -133,11 +137,12 @@
       </div>
     </div>
   </div>
-  <div class="footer-bottom">© <span id="year"></span> P&amp;J Apartamenty. Wszystkie prawa zastrzeżone.</div>
+  <div class="footer-bottom"><div class="footer-legal"><a href="polityka-prywatnosci.html">Polityka prywatności i RODO</a><a href="regulamin.html">Regulamin</a><button type="button" class="linklike" data-cookie-settings>Ustawienia cookies</button></div>© <span id="year"></span> P&amp;J Apartamenty. Wszystkie prawa zastrzeżone.</div>
 </footer>
 
-<script src="js/config-data.js?v=4"></script>
-<script src="js/main.js?v=4"></script>
+<script src="js/config-data.js?v=7"></script>
+<script src="js/consent.js?v=7"></script>
+<script src="js/main.js?v=7"></script>
 <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

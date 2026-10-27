@@ -17,6 +17,7 @@ const adminAttractionsRouter = require("./src/routes/admin/attractions");
 const adminPagesRouter = require("./src/routes/admin/pages");
 
 const { UPLOADS_ROOT } = require("./src/upload");
+const { attachApartmentPages } = require("./src/apartmentPages");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -116,6 +117,11 @@ app.use((req, res, next) => {
   next();
 });
 
+// --- Adresy apartamentów (/florianska-12), sitemap.xml, przekierowanie starych linków ---
+// Muszą być PRZED serwowaniem plików statycznych (apartament.html i sitemap.xml
+// istnieją też jako zwykłe pliki).
+const apartmentPages = attachApartmentPages(app, path.join(__dirname, ".."));
+
 // --- Statyczne pliki właściwej strony (folder nadrzędny) ---
 // Dzięki temu jeden proces Node potrafi serwować całą stronę + API +
 // panel /admin z jednego, tego samego origin (upraszcza to i CORS,
@@ -124,6 +130,9 @@ app.use((req, res, next) => {
 // łączy się z tym backendem po jego publicznym adresie, a dla panelu
 // /admin trzeba ustawić ALLOWED_ORIGIN (patrz wyżej).
 app.use(express.static(path.join(__dirname, ".."), { dotfiles: "deny" }));
+
+// Strona apartamentu pod adresem /<slug> (po plikach statycznych, żeby ich nie przesłaniać).
+apartmentPages.mountSlugRoute();
 
 app.listen(PORT, () => {
   console.log(`Backend P&J Apartamenty działa na http://localhost:${PORT}`);

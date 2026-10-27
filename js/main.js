@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderContactInfo();
   renderMapEmbeds();
   initSearchForm();
+  initReviews();
   initCategoryGrid();
   initApartmentsPage();
   initApartmentDetailPage();
@@ -97,8 +98,21 @@ function renderContactInfo(){
 }
 
 function renderMapEmbeds(){
+  // Mapa OpenStreetMap ładuje się od razu. Mapa Google (jeśli ją ustawisz w CONFIG.mapEmbedUrl)
+  // zapisuje cookies, więc ładuje się dopiero po kliknięciu „Pokaż mapę”.
   document.querySelectorAll("[data-map-embed]").forEach(iframe => {
-    iframe.src = CONFIG.mapEmbedUrl;
+    if (!/google\./.test(CONFIG.mapEmbedUrl)){ iframe.src = CONFIG.mapEmbedUrl; return; }
+    const frame = iframe.parentElement;
+    iframe.style.display = "none";
+    const ph = document.createElement("div");
+    ph.className = "map-consent";
+    ph.innerHTML = '<p>Mapa Google zapisuje na Twoim urządzeniu pliki cookies. Kliknij, aby ją wyświetlić. <a href="polityka-prywatnosci.html#cookies">Więcej informacji</a></p><button type="button" class="btn btn-outline">Pokaż mapę</button>';
+    frame.appendChild(ph);
+    ph.querySelector("button").addEventListener("click", () => {
+      iframe.src = CONFIG.mapEmbedUrl;
+      iframe.style.display = "";
+      ph.remove();
+    });
   });
   document.querySelectorAll("[data-map-link]").forEach(a => {
     a.href = CONFIG.mapLinkUrl;
@@ -137,6 +151,7 @@ function initSearchForm(){
     if (checkout?.value) params.set("checkout", checkout.value);
     const guests = form.querySelector("#guests");
     if (guests?.value) params.set("guests", guests.value);
+    if (window.pjTrack) pjTrack({ ga: "search", meta: "Search" }, { search_term: "dostepnosc" });
     window.location.href = CONFIG.bookingPage + "?" + params.toString();
   });
 }
@@ -210,7 +225,7 @@ function initApartmentsPage(){
     const start = (currentPage - 1) * PAGE_SIZE;
     const pageItems = filtered.slice(start, start + PAGE_SIZE);
 
-    resultCount.textContent = `${filtered.length} ${pluralApartments(filtered.length)}`;
+    if (resultCount) resultCount.textContent = `${filtered.length} ${pluralApartments(filtered.length)}`;
 
     if (pageItems.length === 0){
       grid.innerHTML = `<p class="empty-state">Brak apartamentów w tej kategorii.</p>`;
@@ -510,6 +525,7 @@ function initAttractionDetailPage(){
 
 /* ---------- Strona: Rezerwacja (silnik PREVIO + podsumowanie wyszukiwania) ---------- */
 function initBookingPage(){
+  if (window.pjTrack && document.getElementById("previo-booking-engine-019e737d-de43-73f9-bd82-cfe2ff8e8e6c")) pjTrack({ ga: "begin_checkout", meta: "InitiateCheckout" }, {});
   const box = document.getElementById("bookingSummary");
   if (!box) return;
 
@@ -533,4 +549,46 @@ function initBookingPage(){
   box.innerHTML = `<p class="booking-summary-title">Twoje wyszukiwanie</p><div>${items.join("")}</div>
     <p class="booking-summary-hint">Jeśli okno rezerwacji poniżej nie uzupełniło ich samo, wpisz te same dane.</p>`;
   box.hidden = false;
+}
+
+
+/* ---------- Opinie Google (strona główna) ---------- */
+function initReviews(){
+  const section = document.getElementById("reviews");
+  const track = document.getElementById("reviewsTrack");
+  const list = (typeof CONFIG !== "undefined" && CONFIG.reviews) || [];
+  if (!section || !track || !list.length) return;
+
+  const colors = ["#5b4036", "#3b82d1", "#2f7d5b", "#8a4f9e", "#c0652b"];
+  const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+  track.innerHTML = list.map((r, i) => `
+    <article class="review-card">
+      <div class="review-avatar" style="background:${colors[i % colors.length]}" aria-hidden="true">${esc(r.name.trim().charAt(0).toUpperCase())}</div>
+      <p class="review-name">${esc(r.name)}</p>
+      <div class="review-stars" role="img" aria-label="Ocena ${r.rating} na 5">${"★".repeat(r.rating)}${"☆".repeat(5 - r.rating)}</div>
+      <p class="review-text">${esc(r.text)}</p>
+      <span class="review-source">Opinia z Google</span>
+    </article>`).join("");
+  section.hidden = false;
+
+  section.querySelectorAll("[data-reviews-link]").forEach((a) => { a.href = CONFIG.googleReviewsUrl || "#"; });
+
+  const prev = section.querySelector(".reviews-nav.prev");
+  const next = section.querySelector(".reviews-nav.next");
+  let index = 0;
+  const perView = () => (window.innerWidth <= 600 ? 1 : window.innerWidth <= 900 ? 2 : 3);
+  function update(){
+    const max = Math.max(0, list.length - perView());
+    index = Math.min(index, max);
+    const card = track.children[0];
+    const step = card ? card.getBoundingClientRect().width + 22 : 0;
+    track.style.transform = `translateX(${-index * step}px)`;
+    prev.disabled = index <= 0; next.disabled = index >= max;
+    const hide = max === 0;
+    prev.style.display = next.style.display = hide ? "none" : "flex";
+  }
+  prev.addEventListener("click", () => { index = Math.max(0, index - 1); update(); });
+  next.addEventListener("click", () => { index += 1; update(); });
+  window.addEventListener("resize", update);
+  update();
 }
