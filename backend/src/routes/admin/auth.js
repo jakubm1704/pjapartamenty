@@ -11,9 +11,13 @@ router.post("/login", (req, res) => {
   if (!checkCredentials(username, password)){
     return res.status(401).json({ error: "Nieprawidłowy login lub hasło." });
   }
-  req.session.isAdmin = true;
-  req.session.username = username;
-  res.json({ ok: true, username });
+  // Nowy identyfikator sesji po zalogowaniu (ochrona przed „session fixation”).
+  req.session.regenerate((err) => {
+    if (err) return res.status(500).json({ error: "Nie udało się zalogować. Spróbuj ponownie." });
+    req.session.isAdmin = true;
+    req.session.username = username;
+    res.json({ ok: true, username });
+  });
 });
 
 router.post("/logout", (req, res) => {

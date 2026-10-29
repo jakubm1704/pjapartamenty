@@ -19,7 +19,7 @@ router.get("/:id", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
-  const allowed = ["name", "area", "shortDesc", "longDesc"];
+  const allowed = ["name", "area", "shortDesc", "longDesc", "name_en", "shortDesc_en", "longDesc_en"];
   const patch = {};
   for (const key of allowed){
     if (key in req.body) patch[key] = req.body[key];

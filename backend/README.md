@@ -143,6 +143,7 @@ backend/
     auth.js                       — logowanie, middleware wymagający sesji
     upload.js                      — bezpieczna konfiguracja uploadu zdjęć
     seed.js                         — generuje content.json przy pierwszym uruchomieniu
+    apartmentPages.js                — adresy /slug i /en/slug, sitemap.xml (PL+EN), hreflang, JSON-LD
     previoClient.js                  — połączenie z PREVIO (patrz niżej)
     mapApartment.js                   — mapowanie danych PREVIO → format strony (do dokończenia)
     routes/

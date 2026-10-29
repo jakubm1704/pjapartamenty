@@ -83,34 +83,25 @@ potrzebny jest hosting, który uruchamia programy Node.js i ma **trwały dysk**
 (na hostingu bez trwałego dysku wgrane zdjęcia znikną!).
 **Nie nadają się:** GitHub Pages, Netlify, Vercel (pliki wgrane przez admina by znikały).
 
-### Wariant 1 — Railway (najprostszy, wszystko w przeglądarce, ok. 5 USD/mc)
-_Nazwy opcji w panelu Railway mogą się trochę różnić od opisu poniżej — kieruj się sensem kroków. Ten wariant nie był jeszcze testowany na żywo; przy pierwszym uruchomieniu mogą być potrzebne drobne poprawki._
-1. Załóż konto na github.com i wgraj cały folder projektu do nowego, **prywatnego**
-   repozytorium (przycisk „Upload files”). Nie wgrywaj pliku `.env` z hasłami.
-2. Załóż konto na railway.com, plan **Hobby** (darmowy plan nie pozwala na własną domenę
-   i ma za mały dysk). Ustaw limit wydatków w panelu (ok. 10 USD).
-3. „New Project” → „Deploy from GitHub repo” → wybierz repozytorium.
-4. W ustawieniach usługi: **Root Directory** zostaw główny folder projektu,
-   **Build Command:** `cd backend && npm install --omit=dev`,
-   **Start Command:** `cd backend && node server.js`.
-5. Dodaj **Volume** (dysk) zamontowany w `/data`.
-6. W zakładce **Variables** dodaj:
-   - `DATA_DIR` = `/data`  (tu zapisują się dane i zdjęcia)
-   - `NODE_ENV` = `production`
-   - `SESSION_SECRET` = długi losowy ciąg (patrz niżej)
-   - `ADMIN_USERNAME` = wybrany login
-   - `ADMIN_PASSWORD_HASH` = zaszyfrowane hasło (patrz niżej)
-   - `SITE_URL` = `https://www.apartmentcracow.com`
-7. W **Settings → Networking → Custom Domain** dodaj `apartmentcracow.com` i `www.apartmentcracow.com`
-   i ustaw u rejestratora domeny wpisy DNS dokładnie według instrukcji Railway.
-   Certyfikat HTTPS pojawi się automatycznie.
-8. Wejdź na `https://twojadomena/admin`, zaloguj się i wgraj zdjęcia.
+### Wariant 1 — Railway lub Render (wszystko w przeglądarce, bez Terminala)
+Pełna instrukcja krok po kroku (z porównaniem cen) jest w dokumencie „Wdrożenie strony P&J Apartamenty — krok po kroku”. W skrócie:
+1. Wgraj zawartość projektu do **prywatnego** repozytorium na GitHubie (Add file → Upload files). Nie wgrywaj `.env`.
+2. Railway: New Project → Deploy from GitHub repo (albo Render: New → Web Service). Pól Build/Start **nie zmieniaj** —
+   `package.json` w głównym folderze instaluje backend (`npm install`) i startuje go (`npm start`).
+   Na Renderze wpisz Build `npm install`, Start `npm start` i wybierz płatny plan (Free nie ma dysku).
+3. Dodaj trwały dysk (Railway: Volume, Render: Disk) zamontowany w `/data`.
+4. W Variables / Environment ustaw: `NODE_ENV=production`, `DATA_DIR=/data`, `ADMIN_USERNAME`,
+   `ADMIN_PASSWORD` (min. 10 znaków; wpisz TYLKO tu), `SITE_URL=https://www.apartmentcracow.com`.
+   Na czas testu dodaj `NOINDEX=true` (Google nie zaindeksuje testowego adresu) — przy publikacji usuń.
+   `SESSION_SECRET` jest opcjonalny (bez niego serwer losuje klucz, a po restarcie trzeba zalogować się ponownie).
+5. Wygeneruj adres testowy (Railway: Settings → Networking → Generate Domain), sprawdź stronę i `/admin`,
+   zrób Redeploy i upewnij się, że wgrane zdjęcie nadal jest (dysk działa).
+6. Dopiero potem: plan płatny, własna domena (wpisy DNS wg instrukcji hostingu), usunięcie `NOINDEX`,
+   zgłoszenie `sitemap.xml` w Google Search Console.
 
-**Hasło do panelu (nigdy nie wpisuj go wprost):** w aplikacji „Terminal” na Macu
-(wymaga zainstalowanego Node.js z nodejs.org) wejdź do folderu `backend` projektu i uruchom:
-`node scripts/hash-password.js "TwojeMocneHaslo"` → wynik wklej jako `ADMIN_PASSWORD_HASH`.
-Klucz sesji: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"` → `SESSION_SECRET`.
 Hasła i klucze wpisuj **tylko** w panelu hostingu (Variables), nigdy w czacie ani w repozytorium.
+(Opcja dla zaawansowanych: zamiast `ADMIN_PASSWORD` można podać gotowy hash w `ADMIN_PASSWORD_HASH`,
+wygenerowany poleceniem `node scripts/hash-password.js "Hasło"` w folderze `backend`.)
 
 ### Wariant 2 — własny serwer VPS (stała cena, wymaga Terminala)
 Np. Hetzner/OVH, Ubuntu: zainstaluj Node 20, wgraj projekt, w `backend/` uruchom
@@ -135,6 +126,7 @@ Struktura:
 index.html          — strona główna (wyszukiwarka, kategorie, mapa, mini-kontakt)
 apartamenty.html     — siatka 80 apartamentów, filtr kategorii, paginacja
 apartament.html      — szablon strony pojedynczego apartamentu (czyta ?id=), z karuzelą zdjęć
+en/                  — angielska wersja całej strony (index, apartments, apartment, attractions, attraction, booking, breakfast, contact, parking, tours, transfers, privacy-policy, terms)
 rezerwacja.html      — silnik rezerwacji Previo (przyjmuje ?apartment=&checkin=&checkout=&guests=)
 transfery.html       — transfery lotniskowe (cennik wg liczby osób)
 parking.html         — parking podziemny dla gości, z karuzelą zdjęć
@@ -150,7 +142,7 @@ js/config-data.js    — KONFIGURACJA + dane apartamentów/atrakcji + opcjonalne
 js/main.js           — logika: nawigacja, filtrowanie, paginacja, karuzele, opinie, formularze
 js/consent.js        — baner zgód na cookies, Google Analytics 4 i Meta Pixel (po zgodzie)
 assets/images/       — logo P&J (złote i czarno-białe) oraz zdjęcie hero strony głównej
-robots.txt, sitemap.xml — podstawy SEO dla wyszukiwarek
+robots.txt, sitemap.xml — podstawy SEO dla wyszukiwarek (sitemap.xml zapasowy; backend generuje własny, dwujęzyczny)
 backend/             — opcjonalny backend + panel administracyjny (patrz backend/README.md)
 ```
 
@@ -243,7 +235,7 @@ Formularz na razie tylko pokazuje komunikat potwierdzenia w przeglądarce —
 
 ### 8. Transfery, parking, śniadania — cenniki
 Cena transferu (`transfery.html`) jest wpisana na sztywno w HTML, zgodnie z
-podaną stawką (1–4 osoby 150 zł, 5–6 osób 200 zł, 7+ osób cena do ustalenia) — edytuj bezpośrednio
+podaną stawką (Kraków-Balice / Katowice-Pyrzowice: 1–4 osoby 150 / 600 zł, 5–6 osób 200 / 800 zł, 7–8 osób 300 / 1200 zł, 9+ osób cena do ustalenia) — edytuj bezpośrednio
 tabelę w pliku, jeśli się zmieni. Ceny i opisy Parkingu i Śniadania da się
 za to edytować także przez panel administracyjny (`/admin`), razem ze
 zdjęciami — patrz punkt 4.
@@ -269,13 +261,61 @@ Stare Miasto”, „wynajem apartamentów Kraków centrum” itp.:
   `https://www.apartmentcracow.com/` — podmień go, jeśli strona ma działać
   pod innym adresem/domeną.
 - Strona apartamentu (`apartament.html`) renderuje treść przez JavaScript na
-  podstawie `?id=`, więc wszystkie apartamenty dzieli jeden plik i jeden
-  adres URL-wzorzec — dobre dla utrzymania, ale nie tak mocne pod SEO, jak
-  osobna, w pełni statyczna podstrona na każdy apartament. Jeśli zależy Wam
-  na tym, by pojedyncze apartamenty same w sobie pojawiały się wysoko w
-  Google, warto docelowo wygenerować dla każdego apartamentu osobny,
-  statyczny plik HTML (np. automatycznie, na bazie danych z PREVIO) zamiast
-  jednego wspólnego szablonu.
+  podstawie `?id=`. **Gdy działa backend** (Railway/VPS), każdy apartament ma
+  własny, ładny adres (`/florianska-12`, a po angielsku `/en/florianska-12`),
+  a serwer wpisuje w kod HTML tytuł, opis, adres kanoniczny, `hreflang` i
+  dane strukturalne (JSON-LD) tego apartamentu — Google widzi je bez
+  uruchamiania JavaScriptu. Sam hosting statyczny (bez backendu) też działa,
+  ale wtedy apartamenty mają adresy `apartament.html?id=…` i słabsze SEO.
+- `sitemap.xml` generuje backend na bieżąco (wszystkie widoczne apartamenty,
+  obie wersje językowe, z powiązaniami `hreflang`). Plik `sitemap.xml` w
+  repozytorium to wersja zapasowa na wypadek hostingu bez backendu.
+  Po uruchomieniu strony dodaj `https://www.apartmentcracow.com/sitemap.xml`
+  w Google Search Console.
+
+## 🇬🇧 Wersja angielska (`/en/`)
+
+Cała strona ma angielską wersję w folderze `en/` (13 plików: strona główna,
+apartamenty, szablon apartamentu, okolica, szablon atrakcji, rezerwacja,
+śniadania, kontakt, parking, wycieczki, transfery, polityka prywatności,
+regulamin). To osobne strony pod osobnymi adresami — to najlepszy wariant pod SEO
+(Google indeksuje każdy język osobno, a znaczniki `hreflang` mówią mu, która
+wersja jest dla kogo). Przełącznik **PL | EN** jest w nagłówku każdej strony
+i prowadzi do odpowiednika danej podstrony (także dla apartamentów i atrakcji).
+
+- **Teksty stałe** (nagłówki, opisy sekcji) edytujesz bezpośrednio w plikach
+  `en/*.html`. Jeśli zmieniasz polski tekst na stronie, pamiętaj o zmianie
+  też w odpowiedniku w `en/` (lub poproś mnie — zrobię to za Ciebie).
+- **Teksty dynamiczne** (przyciski, etykiety, filtry) są w słowniku `I18N`
+  w `js/main.js`; dane apartamentów, atrakcji i opinii mają pola z
+  końcówką `_en` w `js/config-data.js` (np. `description_en`).
+- **Treści z panelu /admin**: przy apartamentach, atrakcjach, Parkingu i
+  Śniadaniach jest sekcja „Wersja angielska (EN)”. Jeśli jej nie wypełnisz,
+  strona pokaże automatyczne tłumaczenie standardowych elementów (typ
+  apartamentu, piętro, łóżka, udogodnienia, adres) albo tekst polski.
+- **Teksty prawne (`en/privacy-policy.html`, `en/terms.html`)** to tłumaczenia
+  poglądowe z adnotacją, że wiążąca jest wersja polska. Wymagają
+  sprawdzenia przez prawnika, tak samo jak polskie.
+- Banner cookies i mapa także przełączają się na angielski automatycznie.
+
+## ➕ Dodawanie i zarządzanie apartamentami z panelu /admin
+
+(działa po wdrożeniu backendu na hostingu z trwałym dyskiem — patrz wyżej)
+
+- **+ Nowy apartament** (lewy górny róg zakładki „Apartamenty”): podajesz
+  **ID z PREVIO**, nazwę, liczbę sypialni, piętro, metraż, liczbę osób, łóżka
+  i udogodnienia (klimatyzacja, wanna, balkon, pralka). Strona sama wygeneruje
+  adres (`/nazwa`, `/en/nazwa`), opis PL/EN i dane do Google. Potem wgrywasz
+  zdjęcia w edytorze apartamentu.
+- **ID z PREVIO jest obowiązkowe** — według niego przycisk „Zarezerwuj”
+  otwiera właściwy apartament w silniku rezerwacji.
+- Zdjęcia, opisy (PL i EN), udogodnienia, adres — edytujesz w tym samym miejscu.
+- **Ukryj na stronie** — apartament znika z listy, wyszukiwarki i sitemapy,
+  ale nie jest usuwany (można go przywrócić).
+- **Usuń** — możliwe tylko dla apartamentów dodanych w panelu. Apartamenty z
+  listy startowej tylko się ukrywa (inaczej wróciłyby po aktualizacji danych).
+- Aktualizacja listy startowej (`APARTMENTS_DATA_VERSION`) **nie nadpisuje**
+  apartamentów edytowanych w panelu ani dodanych ręcznie, ani wgranych zdjęć.
 
 ## Uruchomienie lokalnie
 To zwykłe pliki statyczne — wystarczy otworzyć `index.html` w przeglądarce,

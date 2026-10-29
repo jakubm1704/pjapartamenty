@@ -11,12 +11,12 @@ const store = require("../store");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.json(store.getApartments());
+  res.json(store.getApartments().filter((a) => !a.hidden));
 });
 
 router.get("/:id", (req, res) => {
   const apt = store.getApartment(req.params.id);
-  if (!apt) return res.status(404).json({ error: "Nie znaleziono apartamentu." });
+  if (!apt || apt.hidden) return res.status(404).json({ error: "Nie znaleziono apartamentu." });
   res.json(apt);
 });
 

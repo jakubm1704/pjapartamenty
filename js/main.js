@@ -20,6 +20,65 @@ const ICONS = {
 
 const CATEGORY_ICON = { studio: ICONS.studio, "1-sypialnia": ICONS.cat1, "2-sypialnie": ICONS.cat2, "3-plus": ICONS.cat3 };
 
+/* ---------- Teksty interfejsu w obu językach (PL / EN) ----------
+   LANG pochodzi z config-data.js (<html lang="en"> w podstronach /en/). */
+const I18N = {
+  pl: {
+    pages: { booking: "rezerwacja.html", apartments: "apartamenty.html", area: "okolica.html", attraction: "atrakcja.html", privacy: "polityka-prywatnosci.html" },
+    mapText: "Mapa Google zapisuje na Twoim urządzeniu pliki cookies. Kliknij, aby ją wyświetlić.", mapMore: "Więcej informacji", mapShow: "Pokaż mapę",
+    catAlt: (l) => `Apartament typu ${l} w Krakowie`,
+    aptCount: (n) => `${n} ${n === 1 ? "apartament" : (n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14)) ? "apartamenty" : "apartamentów"}`,
+    seeApts: "Zobacz apartamenty →", all: "Wszystkie", emptyCat: "Brak apartamentów w tej kategorii.",
+    prevPage: "Poprzednia strona", nextPage: "Następna strona",
+    guestsShort: (n) => `${n} os.`, studioShort: "studio",
+    cardAlt: (name, type) => `Apartament ${name} w Krakowie na wynajem — ${type}`,
+    aptNotFound: "Nie znaleziono apartamentu", aptNotFoundText: "Ten apartament mógł zostać usunięty lub link jest nieprawidłowy.", aptBack: "Wróć do listy apartamentów",
+    aptNotFoundTitle: "Nie znaleziono apartamentu — P&J Apartamenty",
+    aptTitle: (n) => `${n} — apartament w Krakowie | P&J Apartamenty`,
+    aptImgAlt: (n, i) => `${n} — apartament w Krakowie, zdjęcie ${i}`,
+    persons: (n) => `${n} ${n === 1 ? "osoba" : (n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14)) ? "osoby" : "osób"}`,
+    sleeping: "Spanie:", fType: "Typ", fGuests: "Liczba osób", fArea: "Metraż", fFloor: "Piętro", fIn: "Przyjazd", fOut: "Wyjazd",
+    parkingLabel: "Parking P&J Apartamenty", breakfastLabel: "Śniadanie P&J Apartamenty", photoSuffix: "zdjęcie",
+    goTo: (i) => `Przejdź do zdjęcia ${i}`,
+    readMore: "Czytaj więcej →", attrAlt: (n, a) => `${n} — atrakcja w Krakowie, ${a}`, attrPhotoAlt: (n, i) => `${n} — zdjęcie ${i}`,
+    attrNotFound: "Nie znaleziono atrakcji", attrNotFoundText: "Ten wpis mógł zostać usunięty lub link jest nieprawidłowy.", attrBack: "Wróć do listy atrakcji",
+    attrNotFoundTitle: "Atrakcja nie znaleziona | P&J Apartamenty",
+    attrTitle: (n) => `${n} — co zobaczyć w Krakowie | P&J Apartamenty`,
+    yourSearch: "Twoje wyszukiwanie", sApt: "Apartament:", sIn: "Przyjazd:", sOut: "Wyjazd:", sGuests: "Goście:",
+    searchHint: "Jeśli okno rezerwacji poniżej nie uzupełniło ich samo, wpisz te same dane.",
+    rating: (n) => `Ocena ${n} na 5`, reviewSource: "Opinia z Google",
+    searchTerm: "dostepnosc",
+  },
+  en: {
+    pages: { booking: "booking.html", apartments: "apartments.html", area: "attractions.html", attraction: "attraction.html", privacy: "privacy-policy.html" },
+    mapText: "Google Maps stores cookies on your device. Click to display the map.", mapMore: "More information", mapShow: "Show map",
+    catAlt: (l) => `${l} apartment in Kraków`,
+    aptCount: (n) => `${n} ${n === 1 ? "apartment" : "apartments"}`,
+    seeApts: "View apartments →", all: "All", emptyCat: "No apartments in this category.",
+    prevPage: "Previous page", nextPage: "Next page",
+    guestsShort: (n) => `${n} ${n === 1 ? "guest" : "guests"}`, studioShort: "studio",
+    cardAlt: (name, type) => `${name} apartment for rent in Kraków — ${type}`,
+    aptNotFound: "Apartment not found", aptNotFoundText: "This apartment may have been removed or the link is incorrect.", aptBack: "Back to all apartments",
+    aptNotFoundTitle: "Apartment not found — P&J Apartments",
+    aptTitle: (n) => `${n} — apartment in Kraków | P&J Apartments`,
+    aptImgAlt: (n, i) => `${n} — apartment in Kraków, photo ${i}`,
+    persons: (n) => `${n} ${n === 1 ? "guest" : "guests"}`,
+    sleeping: "Sleeping:", fType: "Type", fGuests: "Guests", fArea: "Floor area", fFloor: "Floor", fIn: "Check-in", fOut: "Check-out",
+    parkingLabel: "P&J Apartments parking", breakfastLabel: "P&J Apartments breakfast", photoSuffix: "photo",
+    goTo: (i) => `Go to photo ${i}`,
+    readMore: "Read more →", attrAlt: (n, a) => `${n} — attraction in Kraków, ${a}`, attrPhotoAlt: (n, i) => `${n} — photo ${i}`,
+    attrNotFound: "Attraction not found", attrNotFoundText: "This entry may have been removed or the link is incorrect.", attrBack: "Back to all attractions",
+    attrNotFoundTitle: "Attraction not found | P&J Apartments",
+    attrTitle: (n) => `${n} — things to see in Kraków | P&J Apartments`,
+    yourSearch: "Your search", sApt: "Apartment:", sIn: "Check-in:", sOut: "Check-out:", sGuests: "Guests:",
+    searchHint: "If the booking window below has not filled these in, please enter the same details.",
+    rating: (n) => `Rated ${n} out of 5`, reviewSource: "Google review (translated from Polish)",
+    searchTerm: "availability",
+  },
+};
+const T = I18N[LANG];
+const catLabel = (c) => tr(c, "label");
+
 document.addEventListener("DOMContentLoaded", async () => {
   if (typeof refreshFromBackend === "function"){
     await refreshFromBackend();
@@ -27,6 +86,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   initNavToggle();
   initHeaderScroll();
   wireBookingButtons();
+  wireLanguageSwitch();
   renderContactInfo();
   renderMapEmbeds();
   initSearchForm();
@@ -65,23 +125,22 @@ function initHeaderScroll(){
   window.addEventListener("scroll", update, { passive: true });
 }
 
-/* ---------- Social media i przełącznik języka ---------- */
+/* ---------- Social media ---------- */
 function wireBookingButtons(){
   document.querySelectorAll("[data-social]").forEach(el => {
     const url = el.dataset.social === "facebook" ? CONFIG.facebookUrl : CONFIG.instagramUrl;
     if (url) el.href = url; else el.hidden = true;
   });
-  document.querySelectorAll("[data-lang-en]").forEach(el => {
-    if (CONFIG.englishSiteUrl){
-      el.href = CONFIG.englishSiteUrl;
-    } else {
-      el.removeAttribute("href");
-      el.setAttribute("aria-disabled", "true");
-      el.title = "Wersja angielska — wkrótce";
-      el.classList.add("is-disabled");
-    }
-  });
 }
+
+/* ---------- Przełącznik języka PL ⇄ EN ----------
+   Zwykłe podstrony mają adres ustawiony w HTML. Strony szablonowe (apartament, atrakcja)
+   dostają go tu, bo adres zależy od wybranego apartamentu / atrakcji. */
+function setLanguageSwitchUrl(url){
+  document.querySelectorAll("[data-lang-switch]").forEach(a => { a.href = url; });
+}
+
+function wireLanguageSwitch(){ /* adresy ustawiają strony szablonowe (setLanguageSwitchUrl) */ }
 
 /* ---------- Dane kontaktowe / adres — wstrzykiwane z CONFIG ---------- */
 function renderContactInfo(){
@@ -106,7 +165,7 @@ function renderMapEmbeds(){
     iframe.style.display = "none";
     const ph = document.createElement("div");
     ph.className = "map-consent";
-    ph.innerHTML = '<p>Mapa Google zapisuje na Twoim urządzeniu pliki cookies. Kliknij, aby ją wyświetlić. <a href="polityka-prywatnosci.html#cookies">Więcej informacji</a></p><button type="button" class="btn btn-outline">Pokaż mapę</button>';
+    ph.innerHTML = `<p>${T.mapText} <a href="${T.pages.privacy}#cookies">${T.mapMore}</a></p><button type="button" class="btn btn-outline">${T.mapShow}</button>`;
     frame.appendChild(ph);
     ph.querySelector("button").addEventListener("click", () => {
       iframe.src = CONFIG.mapEmbedUrl;
@@ -151,8 +210,8 @@ function initSearchForm(){
     if (checkout?.value) params.set("checkout", checkout.value);
     const guests = form.querySelector("#guests");
     if (guests?.value) params.set("guests", guests.value);
-    if (window.pjTrack) pjTrack({ ga: "search", meta: "Search" }, { search_term: "dostepnosc" });
-    window.location.href = CONFIG.bookingPage + "?" + params.toString();
+    if (window.pjTrack) pjTrack({ ga: "search", meta: "Search" }, { search_term: T.searchTerm });
+    window.location.href = T.pages.booking + "?" + params.toString();
   });
 }
 
@@ -163,16 +222,16 @@ function initCategoryGrid(){
   const grid = document.getElementById("categoryGrid");
   if (!grid) return;
   grid.innerHTML = CATEGORIES.map(c => `
-    <a class="category-card" href="apartamenty.html?category=${c.id}">
+    <a class="category-card" href="${T.pages.apartments}?category=${c.id}">
       <div class="cat-photo">
-        <img src="${placeholderImage(c.label, "category-" + c.id)}" alt="Apartament typu ${c.label} w Krakowie" loading="lazy">
+        <img src="${placeholderImage(catLabel(c), "category-" + c.id)}" alt="${T.catAlt(catLabel(c))}" loading="lazy">
       </div>
       <div class="cat-body">
         <span class="cat-icon">${CATEGORY_ICON[c.id]}</span>
-        <h3>${c.label}</h3>
-        <p class="cat-count">${countByCategory(c.id)} apartamentów</p>
-        <p>${c.desc}</p>
-        <span class="cat-link">Zobacz apartamenty →</span>
+        <h3>${catLabel(c)}</h3>
+        <p class="cat-count">${T.aptCount(countByCategory(c.id))}</p>
+        <p>${tr(c, "desc")}</p>
+        <span class="cat-link">${T.seeApts}</span>
       </div>
     </a>
   `).join("");
@@ -194,10 +253,10 @@ function initApartmentsPage(){
   let currentPage = 1;
 
   function buildFilterBar(){
-    const pills = [{ id: "", label: "Wszystkie" }, ...CATEGORIES];
+    const pills = [{ id: "", label: T.all, label_en: T.all }, ...CATEGORIES];
     filterBar.innerHTML = pills.map(c => `
       <button type="button" class="filter-pill ${activeCategory === c.id ? "active" : ""}" data-cat="${c.id}">
-        ${c.label}${c.id ? ` (${countByCategory(c.id)})` : ` (${APARTMENTS.length})`}
+        ${catLabel(c)}${c.id ? ` (${countByCategory(c.id)})` : ` (${APARTMENTS.length})`}
       </button>
     `).join("");
 
@@ -207,7 +266,7 @@ function initApartmentsPage(){
         currentPage = 1;
         const p = new URLSearchParams(window.location.search);
         if (activeCategory) p.set("category", activeCategory); else p.delete("category");
-        history.replaceState(null, "", "apartamenty.html" + (p.toString() ? "?" + p.toString() : ""));
+        history.replaceState(null, "", T.pages.apartments + (p.toString() ? "?" + p.toString() : ""));
         render();
       });
     });
@@ -225,10 +284,10 @@ function initApartmentsPage(){
     const start = (currentPage - 1) * PAGE_SIZE;
     const pageItems = filtered.slice(start, start + PAGE_SIZE);
 
-    if (resultCount) resultCount.textContent = `${filtered.length} ${pluralApartments(filtered.length)}`;
+    if (resultCount) resultCount.textContent = T.aptCount(filtered.length);
 
     if (pageItems.length === 0){
-      grid.innerHTML = `<p class="empty-state">Brak apartamentów w tej kategorii.</p>`;
+      grid.innerHTML = `<p class="empty-state">${T.emptyCat}</p>`;
     } else {
       grid.innerHTML = pageItems.map(apartmentCardHTML).join("");
     }
@@ -238,11 +297,11 @@ function initApartmentsPage(){
 
   function renderPagination(totalPages){
     if (totalPages <= 1){ pagination.innerHTML = ""; return; }
-    let html = `<button class="page-btn" data-page="prev" ${currentPage === 1 ? "disabled" : ""} aria-label="Poprzednia strona">${ICONS.chevronL}</button>`;
+    let html = `<button class="page-btn" data-page="prev" ${currentPage === 1 ? "disabled" : ""} aria-label="${T.prevPage}">${ICONS.chevronL}</button>`;
     for (let i = 1; i <= totalPages; i++){
       html += `<button class="page-btn ${i === currentPage ? "active" : ""}" data-page="${i}">${i}</button>`;
     }
-    html += `<button class="page-btn" data-page="next" ${currentPage === totalPages ? "disabled" : ""} aria-label="Następna strona">${ICONS.chevronR}</button>`;
+    html += `<button class="page-btn" data-page="next" ${currentPage === totalPages ? "disabled" : ""} aria-label="${T.nextPage}">${ICONS.chevronR}</button>`;
     pagination.innerHTML = html;
 
     pagination.querySelectorAll(".page-btn").forEach(btn => {
@@ -260,29 +319,23 @@ function initApartmentsPage(){
   render();
 }
 
-function pluralApartments(n){
-  if (n === 1) return "apartament";
-  const mod10 = n % 10, mod100 = n % 100;
-  if (mod10 >= 2 && mod10 <= 4 && !(mod100 >= 12 && mod100 <= 14)) return "apartamenty";
-  return "apartamentów";
-}
-
 function apartmentCardHTML(a){
   const lastFact = a.area
     ? `<span>${ICONS.area} ${a.area} m²</span>`
     : (floorLabel(a.floor) ? `<span>${ICONS.pin} ${floorLabel(a.floor)}</span>` : "");
+  const typeTxt = typeLabel(a.bedrooms);
   return `
     <a class="apt-card" href="${apartmentUrl(a)}">
       <div class="apt-photo">
-        <img src="${apartmentImages(a)[0]}" alt="Apartament ${a.name} w Krakowie na wynajem — ${typeLabel(a.bedrooms)}" loading="lazy">
+        <img src="${apartmentImages(a)[0]}" alt="${T.cardAlt(a.name, typeTxt)}" loading="lazy">
       </div>
       <div class="apt-body">
         <span class="apt-cat">${typeLabel(a.bedrooms)}</span>
         <h3>${a.name}</h3>
-        <p class="apt-addr">${a.address}</p>
+        <p class="apt-addr">${addressLabel(a)}</p>
         <div class="apt-facts">
-          <span>${ICONS.guests} ${a.guests} os.</span>
-          <span>${ICONS.bed} ${a.bedrooms === 0 ? "studio" : a.bedrooms + (a.bedrooms === 1 ? " sypialnia" : " sypialnie")}</span>
+          <span>${ICONS.guests} ${T.guestsShort(a.guests)}</span>
+          <span>${ICONS.bed} ${a.bedrooms === 0 ? T.studioShort : typeLabel(a.bedrooms)}</span>
           ${lastFact}
         </div>
       </div>
@@ -297,44 +350,48 @@ function initApartmentDetailPage(){
   const params = new URLSearchParams(window.location.search);
   // Adres docelowy to /nazwa-apartamentu (backend serwuje tę stronę pod slugiem);
   // stary adres apartament.html?id=… nadal działa.
-  const pathSlug = decodeURIComponent(window.location.pathname).replace(/^\/+|\/+$/g, "");
+  const pathSlug = decodeURIComponent(window.location.pathname).replace(/^\/+|\/+$/g, "").replace(/^en\//, "");
   const apt = (pathSlug && getApartmentBySlug(pathSlug)) || getApartmentById(params.get("id"));
 
   if (!apt){
     root.innerHTML = `
       <div class="empty-state">
-        <h2>Nie znaleziono apartamentu</h2>
-        <p>Ten apartament mógł zostać usunięty lub link jest nieprawidłowy.</p>
-        <a class="btn btn-primary" href="apartamenty.html">Wróć do listy apartamentów</a>
+        <h2>${T.aptNotFound}</h2>
+        <p>${T.aptNotFoundText}</p>
+        <a class="btn btn-primary" href="${T.pages.apartments}">${T.aptBack}</a>
       </div>`;
-    document.title = "Nie znaleziono apartamentu — P&J Apartamenty";
+    document.title = T.aptNotFoundTitle;
     return;
   }
 
-  document.title = `${apt.name} — apartament w Krakowie | P&J Apartamenty`;
+  document.title = T.aptTitle(apt.name);
+  const aptDescription = tr(apt, "description");
   const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.content = apt.description;
+  if (metaDesc) metaDesc.content = aptDescription;
+  setLanguageSwitchUrl(LANG === "pl"
+    ? (BACKEND_ONLINE && apt.slug ? "/en/" + apt.slug : "en/apartment.html?id=" + apt.id)
+    : (BACKEND_ONLINE && apt.slug ? "/" + apt.slug : "../apartament.html?id=" + apt.id));
   document.getElementById("breadcrumbName").textContent = apt.name;
 
   document.querySelector("#apartmentGallery .carousel-track").innerHTML = apartmentImages(apt).map((src, i) =>
-    `<div class="carousel-slide"><img src="${src}" alt="${apt.name} — apartament w Krakowie, zdjęcie ${i + 1}" loading="${i === 0 ? "eager" : "lazy"}"></div>`
+    `<div class="carousel-slide"><img src="${src}" alt="${T.aptImgAlt(apt.name, i + 1)}" loading="${i === 0 ? "eager" : "lazy"}"></div>`
   ).join("");
 
   root.querySelector("[data-field='category']").textContent = typeLabel(apt.bedrooms);
   root.querySelector("[data-field='name']").textContent = apt.name;
-  root.querySelector("[data-field='address']").textContent = apt.address;
-  root.querySelector("[data-field='description']").textContent = apt.description;
+  root.querySelector("[data-field='address']").textContent = addressLabel(apt);
+  root.querySelector("[data-field='description']").textContent = aptDescription;
 
   const quick = document.getElementById("apartmentQuickfacts");
   quick.innerHTML = `
-    <span>${ICONS.guests} ${apt.guests} ${apt.guests === 1 ? "osoba" : (apt.guests % 10 >= 2 && apt.guests % 10 <= 4 && !(apt.guests % 100 >= 12 && apt.guests % 100 <= 14) ? "osoby" : "osób")}</span>
-    <span>${ICONS.bed} ${apt.bedrooms === 0 ? "Studio" : apt.bedrooms + (apt.bedrooms === 1 ? " sypialnia" : " sypialnie")}</span>
+    <span>${ICONS.guests} ${T.persons(apt.guests)}</span>
+    <span>${ICONS.bed} ${typeLabel(apt.bedrooms)}</span>
     ${apt.area ? `<span>${ICONS.area} ${apt.area} m²</span>` : ""}
     ${floorLabel(apt.floor) ? `<span>${ICONS.pin} ${floorLabel(apt.floor)}</span>` : ""}`;
   const beds = bedsLabel(apt.beds);
-  if (beds) quick.insertAdjacentHTML("afterend", `<p class="apt-beds"><strong>Spanie:</strong> ${beds}</p>`);
+  if (beds) quick.insertAdjacentHTML("afterend", `<p class="apt-beds"><strong>${T.sleeping}</strong> ${beds}</p>`);
 
-  document.getElementById("apartmentAmenities").innerHTML = apt.amenities
+  document.getElementById("apartmentAmenities").innerHTML = amenitiesFor(apt)
     .map(a => `<li>${ICONS.check} ${a}</li>`).join("");
 
   // Karta rezerwacji — przenosi daty z ewentualnych parametrów URL.
@@ -342,12 +399,12 @@ function initApartmentDetailPage(){
   const checkout = params.get("checkout") || "";
   const factsList = document.getElementById("bookingFacts");
   factsList.innerHTML = `
-    <div><dt>Typ</dt><dd>${typeLabel(apt.bedrooms)}</dd></div>
-    <div><dt>Liczba osób</dt><dd>${apt.guests}</dd></div>
-    ${apt.area ? `<div><dt>Metraż</dt><dd>${apt.area} m²</dd></div>` : ""}
-    ${floorLabel(apt.floor) ? `<div><dt>Piętro</dt><dd>${floorLabel(apt.floor)}</dd></div>` : ""}
-    ${checkin ? `<div><dt>Przyjazd</dt><dd>${checkin}</dd></div>` : ""}
-    ${checkout ? `<div><dt>Wyjazd</dt><dd>${checkout}</dd></div>` : ""}
+    <div><dt>${T.fType}</dt><dd>${typeLabel(apt.bedrooms)}</dd></div>
+    <div><dt>${T.fGuests}</dt><dd>${apt.guests}</dd></div>
+    ${apt.area ? `<div><dt>${T.fArea}</dt><dd>${apt.area} m²</dd></div>` : ""}
+    ${floorLabel(apt.floor) ? `<div><dt>${T.fFloor}</dt><dd>${floorLabel(apt.floor)}</dd></div>` : ""}
+    ${checkin ? `<div><dt>${T.fIn}</dt><dd>${checkin}</dd></div>` : ""}
+    ${checkout ? `<div><dt>${T.fOut}</dt><dd>${checkout}</dd></div>` : ""}
   `;
 
   // „Zarezerwuj” → podstrona z silnikiem PREVIO. Parametr apartment = ID apartamentu
@@ -357,7 +414,7 @@ function initApartmentDetailPage(){
   if (checkout) bookParams.set("checkout", checkout);
   const guestsParam = params.get("guests");
   if (guestsParam) bookParams.set("guests", guestsParam);
-  document.getElementById("apartmentBookBtn").href = CONFIG.bookingPage + "?" + bookParams.toString();
+  document.getElementById("apartmentBookBtn").href = T.pages.booking + "?" + bookParams.toString();
 }
 
 /* ---------- Formularz kontaktowy ---------- */
@@ -394,25 +451,25 @@ function renderPageDetail(slug, rootId, photoId){
       const el = root.querySelector(`[data-field="${field}"]`);
       if (el && value) el.textContent = value;
     };
-    setField("description", page.description);
-    setField("location", page.location);
-    setField("price", page.price);
-    setField("hours", page.hours);
+    setField("description", tr(page, "description"));
+    setField("location", tr(page, "location"));
+    setField("price", tr(page, "price"));
+    setField("hours", tr(page, "hours"));
   }
 
   if (!photoId) return; // ta strona nie pokazuje już zdjęcia (np. Śniadania)
   const photoEl = document.getElementById(photoId);
   if (!photoEl) return;
 
-  const fallbackLabel = slug === "parking" ? "Parking P&J Apartamenty" : "Śniadanie P&J Apartamenty";
+  const fallbackLabel = slug === "parking" ? T.parkingLabel : T.breakfastLabel;
   // Na stronie pokazujemy jedno, główne zdjęcie — pierwsze z listy
   // (kolejne, jeśli są, można wgrać/uporządkować przez panel /admin).
   const mainImage = (page && page.images && page.images.length)
-    ? page.images[0]
+    ? assetUrl(page.images[0])
     : placeholderImage(fallbackLabel, photoId);
 
   photoEl.src = mainImage;
-  photoEl.alt = `${fallbackLabel} — zdjęcie`;
+  photoEl.alt = `${fallbackLabel} — ${T.photoSuffix}`;
 }
 
 function initCarousels(){
@@ -437,7 +494,7 @@ function initCarousels(){
       slides.forEach((_, i) => {
         const dot = document.createElement("button");
         dot.type = "button";
-        dot.setAttribute("aria-label", `Przejdź do zdjęcia ${i + 1}`);
+        dot.setAttribute("aria-label", T.goTo(i + 1));
         if (i === 0) dot.classList.add("active");
         dot.addEventListener("click", () => go(i));
         dotsWrap.appendChild(dot);
@@ -464,14 +521,15 @@ function initOkolicaPage(){
   if (!root || typeof ATTRACTIONS === "undefined") return;
 
   const areas = ["Stare Miasto", "Kazimierz", "Podgórze"];
+  const introFor = (area) => (LANG === "en" ? (typeof AREA_INTRO_EN !== "undefined" ? AREA_INTRO_EN[area] : "") : AREA_INTRO[area]) || "";
   root.innerHTML = areas.map((area, i) => {
     const items = ATTRACTIONS.filter(a => a.area === area);
     if (items.length === 0) return "";
     return `
       <section class="block ${i % 2 === 1 ? "alt" : ""}">
         <div class="container">
-          <h2>${area}</h2>
-          <p class="lead">${AREA_INTRO[area] || ""}</p>
+          <h2>${areaLabel(area)}</h2>
+          <p class="lead">${introFor(area)}</p>
           <div class="card-grid">
             ${items.map(attractionCardHTML).join("")}
           </div>
@@ -482,13 +540,13 @@ function initOkolicaPage(){
 
 function attractionCardHTML(a){
   return `
-    <a class="info-card attraction-card" href="atrakcja.html?id=${a.id}">
+    <a class="info-card attraction-card" href="${T.pages.attraction}?id=${a.id}">
       <div class="attraction-photo">
-        <img src="${a.image}" alt="${a.name} — atrakcja w Krakowie, ${a.area}" loading="lazy">
+        <img src="${assetUrl(a.image)}" alt="${T.attrAlt(tr(a, "name"), areaLabel(a.area))}" loading="lazy">
       </div>
-      <h3>${a.name}</h3>
-      <p>${a.shortDesc}</p>
-      <span class="cat-link">Czytaj więcej →</span>
+      <h3>${tr(a, "name")}</h3>
+      <p>${tr(a, "shortDesc")}</p>
+      <span class="cat-link">${T.readMore}</span>
     </a>`;
 }
 
@@ -503,24 +561,26 @@ function initAttractionDetailPage(){
   if (!item){
     root.innerHTML = `
       <div class="empty-state">
-        <h2>Nie znaleziono atrakcji</h2>
-        <p>Ten wpis mógł zostać usunięty lub link jest nieprawidłowy.</p>
-        <a class="btn btn-primary" href="okolica.html">Wróć do listy atrakcji</a>
+        <h2>${T.attrNotFound}</h2>
+        <p>${T.attrNotFoundText}</p>
+        <a class="btn btn-primary" href="${T.pages.area}">${T.attrBack}</a>
       </div>`;
-    document.title = "Atrakcja nie znaleziona | P&J Apartamenty";
+    document.title = T.attrNotFoundTitle;
     return;
   }
 
-  document.title = `${item.name} — co zobaczyć w Krakowie | P&J Apartamenty`;
-  document.getElementById("breadcrumbAttractionName").textContent = item.name;
+  const itemName = tr(item, "name");
+  document.title = T.attrTitle(itemName);
+  setLanguageSwitchUrl(LANG === "pl" ? "en/attraction.html?id=" + item.id : "../atrakcja.html?id=" + item.id);
+  document.getElementById("breadcrumbAttractionName").textContent = itemName;
 
-  document.getElementById("attractionGallery").innerHTML = item.images.map((src, i) =>
-    `<div><img src="${src}" alt="${item.name} — zdjęcie ${i + 1}" loading="${i === 0 ? "eager" : "lazy"}"></div>`
+  document.getElementById("attractionGallery").innerHTML = item.images.map(assetUrl).map((src, i) =>
+    `<div><img src="${src}" alt="${T.attrPhotoAlt(itemName, i + 1)}" loading="${i === 0 ? "eager" : "lazy"}"></div>`
   ).join("");
 
-  root.querySelector("[data-field='area']").textContent = item.area;
-  root.querySelector("[data-field='name']").textContent = item.name;
-  root.querySelector("[data-field='longDesc']").textContent = item.longDesc;
+  root.querySelector("[data-field='area']").textContent = areaLabel(item.area);
+  root.querySelector("[data-field='name']").textContent = itemName;
+  root.querySelector("[data-field='longDesc']").textContent = tr(item, "longDesc");
 }
 
 /* ---------- Strona: Rezerwacja (silnik PREVIO + podsumowanie wyszukiwania) ---------- */
@@ -540,14 +600,14 @@ function initBookingPage(){
   const esc = (v) => String(v).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
   const ok = (v) => /^\d{4}-\d{2}-\d{2}$/.test(v || "");
   const items = [];
-  if (apt) items.push(`<span><b>Apartament:</b> ${esc(apt.name)}</span>`);
-  if (ok(checkin)) items.push(`<span><b>Przyjazd:</b> ${esc(checkin)}</span>`);
-  if (ok(checkout)) items.push(`<span><b>Wyjazd:</b> ${esc(checkout)}</span>`);
-  if (/^\d{1,2}$/.test(guests || "")) items.push(`<span><b>Goście:</b> ${esc(guests)}</span>`);
+  if (apt) items.push(`<span><b>${T.sApt}</b> ${esc(apt.name)}</span>`);
+  if (ok(checkin)) items.push(`<span><b>${T.sIn}</b> ${esc(checkin)}</span>`);
+  if (ok(checkout)) items.push(`<span><b>${T.sOut}</b> ${esc(checkout)}</span>`);
+  if (/^\d{1,2}$/.test(guests || "")) items.push(`<span><b>${T.sGuests}</b> ${esc(guests)}</span>`);
   if (!items.length) return;
 
-  box.innerHTML = `<p class="booking-summary-title">Twoje wyszukiwanie</p><div>${items.join("")}</div>
-    <p class="booking-summary-hint">Jeśli okno rezerwacji poniżej nie uzupełniło ich samo, wpisz te same dane.</p>`;
+  box.innerHTML = `<p class="booking-summary-title">${T.yourSearch}</p><div>${items.join("")}</div>
+    <p class="booking-summary-hint">${T.searchHint}</p>`;
   box.hidden = false;
 }
 
@@ -565,9 +625,9 @@ function initReviews(){
     <article class="review-card">
       <div class="review-avatar" style="background:${colors[i % colors.length]}" aria-hidden="true">${esc(r.name.trim().charAt(0).toUpperCase())}</div>
       <p class="review-name">${esc(r.name)}</p>
-      <div class="review-stars" role="img" aria-label="Ocena ${r.rating} na 5">${"★".repeat(r.rating)}${"☆".repeat(5 - r.rating)}</div>
-      <p class="review-text">${esc(r.text)}</p>
-      <span class="review-source">Opinia z Google</span>
+      <div class="review-stars" role="img" aria-label="${T.rating(r.rating)}">${"★".repeat(r.rating)}${"☆".repeat(5 - r.rating)}</div>
+      <p class="review-text">${esc(LANG === "en" && r.text_en ? r.text_en : r.text)}</p>
+      <span class="review-source">${T.reviewSource}</span>
     </article>`).join("");
   section.hidden = false;
 

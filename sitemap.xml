@@ -1,94 +1,1277 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.apartmentcracow.com/index.html</loc><priority>1.0</priority></url>
-  <url><loc>https://www.apartmentcracow.com/apartamenty.html</loc><priority>0.9</priority></url>
-  <url><loc>https://www.apartmentcracow.com/rezerwacja.html</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/okolica.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.apartmentcracow.com/kontakt.html</loc><priority>0.7</priority></url>
-  <url><loc>https://www.apartmentcracow.com/regulamin.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.apartmentcracow.com/polityka-prywatnosci.html</loc><priority>0.3</priority></url>
-  <url><loc>https://www.apartmentcracow.com/transfery.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.apartmentcracow.com/parking.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.apartmentcracow.com/sniadania.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.apartmentcracow.com/wycieczki.html</loc><priority>0.6</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-classic-6</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-classic-8</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-top-6</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-top-7</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-zp-suite-i</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-classic-5</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-11</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-12</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-21</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-22</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-23</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-24</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-31</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-32</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-33</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-34</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-41</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-42</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-43</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/rose-deluxe-apartment</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/green-deluxe-apartment</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/grey-deluxe-studio</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/yellow-deluxe-studio</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/black-deluxe-studio</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/blue-standard-studio</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/florianska-house</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/krzyza-1</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/krzyza-2</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/krzyza-4</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/krzyza-8</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/krzyza-9</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/krzyza-12</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/tomasza</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-3</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-4</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-5</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-6</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-7</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-8</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-9</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-10</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-14</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-15</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-16</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-17</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-19</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-20</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-21</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/stolarska-22</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/lubicz-8</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/lubicz-9</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/lubicz-31</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/jana-4</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/jana-8</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/jana-10</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/jana-19</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/jana-20</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-a1</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-a2</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-a3</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-a4</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-a5</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-3</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-5</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-12</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-12a</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/szpitalna-14</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/slawkowska-5</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/slawkowska-11</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/gertrudy</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/bosacka</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/koletek</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-1</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-2</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-3</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-4</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-5</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-6</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-7</loc><priority>0.8</priority></url>
-  <url><loc>https://www.apartmentcracow.com/barbakan-8</loc><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://www.apartmentcracow.com/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/"/>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/apartamenty.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/apartamenty.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/apartamenty.html"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/apartments.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/apartamenty.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/apartamenty.html"/>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/rezerwacja.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/rezerwacja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/booking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/rezerwacja.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/booking.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/rezerwacja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/booking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/rezerwacja.html"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/okolica.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/okolica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/attractions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/okolica.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/attractions.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/okolica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/attractions.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/okolica.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/kontakt.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/kontakt.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/kontakt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/kontakt.html"/>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/transfery.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/transfery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/transfers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/transfery.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/transfers.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/transfery.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/transfers.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/transfery.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/parking.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/parking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/parking.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/parking.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/parking.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/parking.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/parking.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/sniadania.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/sniadania.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/breakfast.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/sniadania.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/breakfast.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/sniadania.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/breakfast.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/sniadania.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/wycieczki.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/wycieczki.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/tours.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/wycieczki.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/tours.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/wycieczki.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/tours.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/wycieczki.html"/>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/regulamin.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/regulamin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/regulamin.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/regulamin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/regulamin.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/polityka-prywatnosci.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/polityka-prywatnosci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/polityka-prywatnosci.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/polityka-prywatnosci.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/polityka-prywatnosci.html"/>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-classic-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-classic-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-classic-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-classic-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-classic-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-classic-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-classic-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-classic-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-classic-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-classic-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-classic-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-classic-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-classic-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-classic-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-classic-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-classic-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-top-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-top-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-top-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-top-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-top-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-top-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-top-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-top-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-top-7</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-top-7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-top-7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-top-7"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-top-7</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-top-7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-top-7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-top-7"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-zp-suite-i</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-zp-suite-i"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-zp-suite-i"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-zp-suite-i"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-zp-suite-i</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-zp-suite-i"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-zp-suite-i"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-zp-suite-i"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-classic-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-classic-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-classic-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-classic-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-classic-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-classic-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-classic-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-classic-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-11</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-11"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-11"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-11</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-11"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-11"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-12"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-12"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-12"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-12"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-21</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-21"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-21"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-21</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-21"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-21"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-22</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-22"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-22"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-22</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-22"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-22"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-23</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-23"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-23"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-23</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-23"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-23"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-23"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-24</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-24"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-24"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-24</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-24"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-24"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-24"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-31</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-31"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-31"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-31</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-31"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-31"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-32</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-32"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-32"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-32"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-32</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-32"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-32"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-32"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-33</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-33"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-33"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-33"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-33</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-33"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-33"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-33"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-34</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-34"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-34"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-34"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-34</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-34"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-34"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-34"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-41</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-41"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-41"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-41"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-41</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-41"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-41"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-41"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-42</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-42"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-42"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-42"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-42</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-42"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-42"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-42"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-43</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-43"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-43"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-43"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-43</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-43"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-43"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-43"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/rose-deluxe-apartment</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/rose-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/rose-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/rose-deluxe-apartment"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/rose-deluxe-apartment</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/rose-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/rose-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/rose-deluxe-apartment"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/green-deluxe-apartment</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/green-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/green-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/green-deluxe-apartment"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/green-deluxe-apartment</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/green-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/green-deluxe-apartment"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/green-deluxe-apartment"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/grey-deluxe-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/grey-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/grey-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/grey-deluxe-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/grey-deluxe-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/grey-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/grey-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/grey-deluxe-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/yellow-deluxe-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/yellow-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/yellow-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/yellow-deluxe-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/yellow-deluxe-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/yellow-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/yellow-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/yellow-deluxe-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/black-deluxe-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/black-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/black-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/black-deluxe-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/black-deluxe-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/black-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/black-deluxe-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/black-deluxe-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/blue-standard-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/blue-standard-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/blue-standard-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/blue-standard-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/blue-standard-studio</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/blue-standard-studio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/blue-standard-studio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/blue-standard-studio"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/florianska-house</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-house"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-house"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/florianska-house</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/florianska-house"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/florianska-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/florianska-house"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/krzyza-1</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-1"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/krzyza-1</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-1"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/krzyza-2</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-2"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/krzyza-2</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-2"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/krzyza-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/krzyza-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/krzyza-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/krzyza-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/krzyza-9</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-9"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/krzyza-9</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-9"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/krzyza-12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-12"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-12"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/krzyza-12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/krzyza-12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/krzyza-12"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/krzyza-12"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/tomasza</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/tomasza"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/tomasza"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/tomasza"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/tomasza</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/tomasza"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/tomasza"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/tomasza"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-7</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-7"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-7</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-7"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-9</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-9"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-9</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-9"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-10</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-10"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-10"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-10</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-10"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-10"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-14</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-14"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-14"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-14</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-14"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-14"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-15</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-15"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-15"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-15</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-15"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-15"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-15"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-16</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-16"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-16"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-16</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-16"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-16"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-16"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-17</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-17"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-17"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-17</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-17"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-17"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-17"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-19</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-19"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-19"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-19</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-19"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-19"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-20</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-20"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-20"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-20</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-20"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-20"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-21</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-21"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-21"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-21</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-21"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-21"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-21"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/stolarska-22</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-22"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-22"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/stolarska-22</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/stolarska-22"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/stolarska-22"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/stolarska-22"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/lubicz-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/lubicz-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/lubicz-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/lubicz-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/lubicz-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/lubicz-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/lubicz-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/lubicz-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/lubicz-9</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/lubicz-9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/lubicz-9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/lubicz-9"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/lubicz-9</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/lubicz-9"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/lubicz-9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/lubicz-9"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/lubicz-31</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/lubicz-31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/lubicz-31"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/lubicz-31"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/lubicz-31</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/lubicz-31"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/lubicz-31"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/lubicz-31"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/jana-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/jana-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/jana-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/jana-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/jana-10</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-10"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-10"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/jana-10</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-10"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-10"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-10"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/jana-19</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-19"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-19"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/jana-19</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-19"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-19"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-19"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/jana-20</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-20"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-20"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/jana-20</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/jana-20"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/jana-20"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/jana-20"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-a1</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a1"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-a1</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a1"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-a2</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a2"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-a2</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a2"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-a3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-a3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-a4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-a4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-a5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-a5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-a5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-a5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-a5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-12"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-12"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-12</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-12"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-12"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-12"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-12a</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-12a"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-12a"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-12a"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-12a</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-12a"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-12a"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-12a"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/szpitalna-14</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-14"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-14"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/szpitalna-14</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/szpitalna-14"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/szpitalna-14"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/szpitalna-14"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/slawkowska-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/slawkowska-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/slawkowska-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/slawkowska-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/slawkowska-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/slawkowska-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/slawkowska-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/slawkowska-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/slawkowska-11</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/slawkowska-11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/slawkowska-11"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/slawkowska-11"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/slawkowska-11</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/slawkowska-11"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/slawkowska-11"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/slawkowska-11"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/gertrudy</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/gertrudy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/gertrudy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/gertrudy"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/gertrudy</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/gertrudy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/gertrudy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/gertrudy"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/bosacka</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/bosacka"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/bosacka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/bosacka"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/bosacka</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/bosacka"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/bosacka"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/bosacka"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/koletek</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/koletek"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/koletek"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/koletek"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/koletek</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/koletek"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/koletek"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/koletek"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-1</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-1"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-1</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-1"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-1"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-1"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-2</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-2"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-2</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-2"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-2"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-2"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-3</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-3"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-3"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-3"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-4</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-4"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-4"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-4"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-5</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-5"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-5"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-5"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-6</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-6"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-6"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-6"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-7</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-7"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-7</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-7"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-7"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-7"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/barbakan-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-8"/>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.apartmentcracow.com/en/barbakan-8</loc>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.apartmentcracow.com/barbakan-8"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.apartmentcracow.com/en/barbakan-8"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.apartmentcracow.com/barbakan-8"/>
+    <priority>0.8</priority>
+  </url>
 </urlset>

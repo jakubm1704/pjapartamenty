@@ -110,3 +110,14 @@ body{ background: var(--bg-alt); }
 .upload-btn:hover{ border-color: var(--brass); }
 
 .loading{ padding: 40px; color: var(--ink-faint); }
+
+/* ---------- Dodawanie apartamentu / wersja EN ---------- */
+.edit-panel .subhead{ margin:10px 0 0; padding-top:14px; border-top:1px solid var(--line); font-size:1rem; }
+.edit-panel label.check{ flex-direction:row; align-items:center; gap:8px; font-weight:500; }
+.edit-panel label.check input{ width:auto; padding:0; }
+.check-row{ display:flex; flex-wrap:wrap; gap:8px 22px; }
+.save-msg.error{ color: var(--brick); }
+.btn-danger{ align-self:flex-start; font: inherit; font-weight:600; font-size:.88rem; padding:.65em 1.1em; cursor:pointer;
+  background:transparent; color: var(--brick); border:1px solid var(--brick); border-radius: var(--radius); }
+.btn-danger:hover{ background: var(--brick); color:#fff; }
+#aptNewBtn{ width:100%; margin-bottom:10px; }
