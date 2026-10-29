@@ -13,6 +13,29 @@
   var GA_ID = (T.gaMeasurementId || "").trim();
   var PIXEL_ID = (T.metaPixelId || "").trim();
   var hasTools = !!(GA_ID || PIXEL_ID);
+  var EN = document.documentElement.lang === "en";
+  var PRIVACY = EN ? "privacy-policy.html#cookies" : "polityka-prywatnosci.html#cookies";
+  var S = EN ? {
+    bTitle: "We respect your privacy",
+    bText: 'We use cookies to make the site work and — with your consent — for statistics and advertising (Google, Meta). You can accept everything, reject, or choose. Details: <a href="' + PRIVACY + '">privacy policy</a>.',
+    reject: "Reject", settings: "Settings", accept: "Accept all",
+    mTitle: "Cookie settings",
+    mIntro: "Choose what you agree to. You can change or withdraw your consent at any time (the “Cookie settings” link in the footer).",
+    necessary: "Necessary", necessaryText: "Site operation, security, remembering your choice. These do not require consent.", always: "Always active",
+    stats: "Statistics", statsText: "Google Analytics — anonymous visit statistics that help us improve the site.",
+    marketing: "Marketing", marketingText: "Meta Pixel (Facebook, Instagram) — measuring ad performance and showing ads to people who visited our site.",
+    rejectAll: "Reject all", save: "Save choice"
+  } : {
+    bTitle: "Szanujemy Twoją prywatność",
+    bText: 'Używamy plików cookies, aby strona działała, oraz — za Twoją zgodą — do statystyk i reklam (Google, Meta). Możesz zaakceptować wszystko, odrzucić lub wybrać. Szczegóły: <a href="' + PRIVACY + '">polityka prywatności</a>.',
+    reject: "Odrzucam", settings: "Ustawienia", accept: "Akceptuję wszystkie",
+    mTitle: "Ustawienia cookies",
+    mIntro: "Wybierz, na co się zgadzasz. Zgodę możesz zmienić lub wycofać w dowolnym momencie (link „Ustawienia cookies” w stopce strony).",
+    necessary: "Niezbędne", necessaryText: "Działanie strony, bezpieczeństwo, zapamiętanie Twojego wyboru. Nie wymagają zgody.", always: "Zawsze aktywne",
+    stats: "Statystyka", statsText: "Google Analytics — anonimowe statystyki odwiedzin, dzięki którym poprawiamy stronę.",
+    marketing: "Marketing", marketingText: "Meta Pixel (Facebook, Instagram) — mierzenie skuteczności reklam i wyświetlanie ich osobom, które odwiedziły naszą stronę.",
+    rejectAll: "Odrzucam wszystkie", save: "Zapisz wybór"
+  };
 
   /* --- Consent Mode: ustawienia domyślne (zanim cokolwiek się załaduje) --- */
   window.dataLayer = window.dataLayer || [];
@@ -96,12 +119,11 @@
     if (banner || modal) return;
     banner = el(
       '<div class="cc-banner" role="dialog" aria-labelledby="ccTitle" aria-live="polite">' +
-        '<div class="cc-text"><strong id="ccTitle">Szanujemy Twoją prywatność</strong>' +
-        '<p>Używamy plików cookies, aby strona działała, oraz — za Twoją zgodą — do statystyk i reklam (Google, Meta). Możesz zaakceptować wszystko, odrzucić lub wybrać. Szczegóły: <a href="polityka-prywatnosci.html#cookies">polityka prywatności</a>.</p></div>' +
+        '<div class="cc-text"><strong id="ccTitle">' + S.bTitle + '</strong><p>' + S.bText + '</p></div>' +
         '<div class="cc-actions">' +
-          '<button type="button" class="cc-btn" data-cc="reject">Odrzucam</button>' +
-          '<button type="button" class="cc-btn" data-cc="settings">Ustawienia</button>' +
-          '<button type="button" class="cc-btn cc-primary" data-cc="accept">Akceptuję wszystkie</button>' +
+          '<button type="button" class="cc-btn" data-cc="reject">' + S.reject + '</button>' +
+          '<button type="button" class="cc-btn" data-cc="settings">' + S.settings + '</button>' +
+          '<button type="button" class="cc-btn cc-primary" data-cc="accept">' + S.accept + '</button>' +
         '</div></div>');
     document.body.appendChild(banner);
     banner.addEventListener("click", function(e){
@@ -117,17 +139,17 @@
     var c = read() || { analytics: false, marketing: false };
     modal = el(
       '<div class="cc-overlay"><div class="cc-modal" role="dialog" aria-modal="true" aria-labelledby="ccMTitle">' +
-        '<h2 id="ccMTitle">Ustawienia cookies</h2>' +
-        '<p class="cc-intro">Wybierz, na co się zgadzasz. Zgodę możesz zmienić lub wycofać w dowolnym momencie (link „Ustawienia cookies” w stopce strony).</p>' +
-        '<div class="cc-row"><div><strong>Niezbędne</strong><p>Działanie strony, bezpieczeństwo, zapamiętanie Twojego wyboru. Nie wymagają zgody.</p></div><span class="cc-always">Zawsze aktywne</span></div>' +
-        '<div class="cc-row"><div><strong>Statystyka</strong><p>Google Analytics — anonimowe statystyki odwiedzin, dzięki którym poprawiamy stronę.</p></div>' +
-          '<label class="cc-switch"><input type="checkbox" id="ccAnalytics"' + (c.analytics ? " checked" : "") + '><span></span><em class="sr">Statystyka</em></label></div>' +
-        '<div class="cc-row"><div><strong>Marketing</strong><p>Meta Pixel (Facebook, Instagram) — mierzenie skuteczności reklam i wyświetlanie ich osobom, które odwiedziły naszą stronę.</p></div>' +
-          '<label class="cc-switch"><input type="checkbox" id="ccMarketing"' + (c.marketing ? " checked" : "") + '><span></span><em class="sr">Marketing</em></label></div>' +
+        '<h2 id="ccMTitle">' + S.mTitle + '</h2>' +
+        '<p class="cc-intro">' + S.mIntro + '</p>' +
+        '<div class="cc-row"><div><strong>' + S.necessary + '</strong><p>' + S.necessaryText + '</p></div><span class="cc-always">' + S.always + '</span></div>' +
+        '<div class="cc-row"><div><strong>' + S.stats + '</strong><p>' + S.statsText + '</p></div>' +
+          '<label class="cc-switch"><input type="checkbox" id="ccAnalytics"' + (c.analytics ? " checked" : "") + '><span></span><em class="sr">' + S.stats + '</em></label></div>' +
+        '<div class="cc-row"><div><strong>' + S.marketing + '</strong><p>' + S.marketingText + '</p></div>' +
+          '<label class="cc-switch"><input type="checkbox" id="ccMarketing"' + (c.marketing ? " checked" : "") + '><span></span><em class="sr">' + S.marketing + '</em></label></div>' +
         '<div class="cc-actions cc-modal-actions">' +
-          '<button type="button" class="cc-btn" data-cc="reject">Odrzucam wszystkie</button>' +
-          '<button type="button" class="cc-btn" data-cc="save">Zapisz wybór</button>' +
-          '<button type="button" class="cc-btn cc-primary" data-cc="accept">Akceptuję wszystkie</button>' +
+          '<button type="button" class="cc-btn" data-cc="reject">' + S.rejectAll + '</button>' +
+          '<button type="button" class="cc-btn" data-cc="save">' + S.save + '</button>' +
+          '<button type="button" class="cc-btn cc-primary" data-cc="accept">' + S.accept + '</button>' +
         '</div></div></div>');
     document.body.appendChild(modal);
     modal.addEventListener("click", function(e){

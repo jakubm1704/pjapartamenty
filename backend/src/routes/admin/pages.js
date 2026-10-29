@@ -15,7 +15,7 @@ router.get("/:slug", (req, res) => {
 });
 
 router.put("/:slug", (req, res) => {
-  const allowed = ["title", "location", "price", "hours", "description"];
+  const allowed = ["title", "location", "price", "hours", "description", "price_en", "hours_en", "description_en"];
   const patch = {};
   for (const key of allowed){
     if (key in req.body) patch[key] = req.body[key];

@@ -67,50 +67,10 @@ function apartmentsDataVersion(){
   return require("../../js/config-data.js").APARTMENTS_DATA_VERSION;
 }
 
-const AREA_INTRO = {
-  "Stare Miasto": "Serce Krakowa, wpisane na listę UNESCO — i najbliższa okolica naszych apartamentów.",
-  "Kazimierz": "Dawna żydowska dzielnica Krakowa, dziś jedna z najbardziej klimatycznych części miasta — kilkanaście minut spacerem od Floriańskiej.",
-  "Podgórze": "Po drugiej stronie Wisły, naprzeciw Kazimierza — dzielnica naznaczona historią II wojny światowej i dziś tętniąca nowym życiem.",
-};
-
-const ATTRACTIONS_RAW = [
-  { name: "Rynek Główny i Sukiennice", area: "Stare Miasto",
-    shortDesc: "Największy średniowieczny rynek w Europie, kilka minut spacerem od Floriańskiej. W jego sercu stoją renesansowe Sukiennice z kramami rzemieślniczymi.",
-    longDesc: "Rynek Główny to serce Krakowa i jeden z największych średniowiecznych placów miejskich w Europie — od naszych apartamentów przy Floriańskiej dzieli go zaledwie kilka minut spaceru. Pośrodku placu stoją renesansowe Sukiennice, dawna hala targowa, dziś pełna kramów z pamiątkami i rękodziełem, a pod nimi kryje się podziemne muzeum opowiadające o średniowiecznym Krakowie. Wokół rynku tętnią kawiarnie, restauracje i uliczni artyści — to naturalny punkt startowy każdego zwiedzania miasta." },
-  { name: "Bazylika Mariacka", area: "Stare Miasto",
-    shortDesc: "Gotycki kościół z ołtarzem Wita Stwosza — co godzinę z wyższej wieży rozbrzmiewa hejnał mariacki, słyszalny w całym centrum.",
-    longDesc: "Bazylika Mariacka to gotycki kościół przy Rynku Głównym, znany z asymetrycznych wież i monumentalnego, drewnianego ołtarza Wita Stwosza we wnętrzu. Co godzinę z wyższej wieży rozbrzmiewa hejnał mariacki — melodia urywająca się w tym samym, charakterystycznym miejscu, nawiązująca do legendy o strażniku przerwanym przez najazd. Warto wejść na wieżę widokową, skąd rozpościera się widok na całe Stare Miasto." },
-  { name: "Brama Floriańska i Barbakan", area: "Stare Miasto",
-    shortDesc: "Fragment dawnych murów obronnych Krakowa — dosłownie u wylotu ulicy Floriańskiej, przy której mieszkasz.",
-    longDesc: "Brama Floriańska i stojący nieopodal Barbakan to najlepiej zachowany fragment średniowiecznych murów obronnych Krakowa — i dosłownie punkt, w którym zaczyna się ulica Floriańska, przy której znajdują się nasze apartamenty. Barbakan, okrągła forteca z basztami, należy do nielicznych tak dobrze zachowanych budowli obronnych tego typu w Europie. To naturalna brama do Starego Miasta — stąd zaczynają się spacery w stronę Rynku." },
-  { name: "Wawel — zamek i katedra", area: "Stare Miasto",
-    shortDesc: "Wzgórze królewskie z zamkiem, katedrą koronacyjną polskich władców i legendarną Smoczą Jamą nad Wisłą.",
-    longDesc: "Wzgórze wawelskie to symbol polskiej państwowości — mieści się na nim Zamek Królewski oraz katedra, w której przez wieki koronowano i chowano polskich władców. Zwiedzić można komnaty reprezentacyjne, prywatne apartamenty królewskie, skarbiec i zbrojownię, a pod wzgórzem, nad samą Wisłą, znajduje się legendarna Smocza Jama. To jedno z najczęściej odwiedzanych miejsc w Polsce — warto zarezerwować bilety na konkretne godziny z wyprzedzeniem." },
-  { name: "Ulica Floriańska", area: "Stare Miasto",
-    shortDesc: "Jedna z najstarszych i najbardziej reprezentacyjnych ulic Krakowa, łącząca Rynek Główny z Bramą Floriańską — pełna kawiarni, restauracji i sklepów.",
-    longDesc: "Ulica Floriańska, przy której znajdują się nasze apartamenty, to jeden z najstarszych i najbardziej reprezentacyjnych traktów Krakowa, łączący Rynek Główny z Bramą Floriańską. Wzdłuż niej stoją kamienice z bogatą historią, a w ich parterach — kawiarnie, restauracje i sklepy, dzięki którym większość codziennych potrzeb załatwisz, nie oddalając się od apartamentu. To też część Drogi Królewskiej, którą przechodziły dawne orszaki koronacyjne." },
-  { name: "Planty", area: "Stare Miasto",
-    shortDesc: "Pierścień parkowy otaczający Stare Miasto w miejscu dawnych murów obronnych — świetny na spokojny spacer między zwiedzaniem.",
-    longDesc: "Planty to pas zieleni okalający całe Stare Miasto w miejscu dawnych, średniowiecznych murów obronnych, rozebranych na początku XIX wieku. To ulubione miejsce spacerów mieszkańców i gości — z alejkami, ławkami i pomnikami, doskonałe na chwilę odpoczynku między kolejnymi punktami zwiedzania. Okrążenie całych Plant pieszo zajmuje około pół godziny." },
-  { name: "Plac Nowy", area: "Kazimierz",
-    shortDesc: "Serce nocnego życia Kazimierza — targowisko za dnia, skupisko barów i kultowych zapiekanek po zmroku.",
-    longDesc: "Plac Nowy to nieformalne centrum Kazimierza — za dnia działa tu lokalny targ, a po zmroku plac i okoliczne uliczki zapełniają się gośćmi kawiarni i barów. To też miejsce narodzin kultowych krakowskich zapiekanek, sprzedawanych w okrągłym pawilonie na środku placu, czynnym właściwie całą dobę. Stąd blisko już do większości klimatycznych zakątków dzielnicy." },
-  { name: "Synagogi i dziedzictwo żydowskie", area: "Kazimierz",
-    shortDesc: "Stara Synagoga, Synagoga Remuh z cmentarzem czy Synagoga Tempel przypominają o wielowiekowej historii dzielnicy.",
-    longDesc: "Kazimierz był przez wieki centrum życia żydowskiego w Krakowie, a ślady tej historii widać do dziś — Stara Synagoga (dziś oddział Muzeum Krakowa), Synagoga Remuh z zabytkowym cmentarzem czy secesyjna Synagoga Tempel to tylko część zachowanych obiektów. Wiele z nich można zwiedzić od środka, poznając historię społeczności, która współtworzyła dzielnicę przez ponad pięćset lat." },
-  { name: "Kameralne uliczki Kazimierza", area: "Kazimierz",
-    shortDesc: "Kazimierz to też kawiarnie, galerie i lokalne knajpki w klimatycznych, niewielkich kamienicach — idealne do zwiedzania bez planu.",
-    longDesc: "Poza znanymi punktami na mapie, Kazimierz najlepiej poznaje się bez konkretnego planu — wystarczy skręcić w boczną uliczkę, by trafić na kameralną kawiarnię, galerię sztuki albo lokalną knajpkę w niewielkiej, secesyjnej kamienicy. To dzielnica, w której warto po prostu zwolnić i dać się prowadzić przypadkowi." },
-  { name: "Fabryka Emalia Oskara Schindlera", area: "Podgórze",
-    shortDesc: "Muzeum w dawnej fabryce Schindlera opowiada historię okupowanego Krakowa — jedna z najważniejszych tras historycznych w mieście.",
-    longDesc: "W dawnej Fabryce Emalia Oskara Schindlera działa dziś oddział Muzeum Krakowa poświęcony okupacji niemieckiej w latach 1939–1945. Wystawa w przystępny, multimedialny sposób opowiada historię miasta i jego mieszkańców w tym okresie, w tym losy robotników zatrudnionych przez Schindlera. To jedna z najważniejszych i najczęściej odwiedzanych tras historycznych w Krakowie — warto zarezerwować bilet wcześniej." },
-  { name: "Plac Bohaterów Getta", area: "Podgórze",
-    shortDesc: "Miejsce pamięci po dawnym krakowskim getcie, z instalacją pustych krzeseł upamiętniającą jego mieszkańców.",
-    longDesc: "Plac Bohaterów Getta był w czasie wojny centralnym punktem krakowskiego getta. Dziś upamiętnia go instalacja kilkudziesięciu metalowych, pustych krzeseł — symbol mieszkańców wysiedlonych i zamordowanych w czasie okupacji. Przy placu stoi też dawna Apteka pod Orłem, kolejny oddział Muzeum Krakowa, prowadzony przez polskiego farmaceutę, który pomagał mieszkańcom getta." },
-  { name: "Bulwary Wiślane", area: "Podgórze",
-    shortDesc: "Spacerowe i rowerowe bulwary nad Wisłą, z widokiem na Wawel — świetne miejsce na wieczorny spacer.",
-    longDesc: "Bulwary nad Wisłą to ulubione miejsce mieszkańców Krakowa na spacer, przejażdżkę rowerem czy wieczorny odpoczynek z widokiem na podświetlony Wawel. Po stronie podgórskiej bulwary są nieco spokojniejsze niż te bliżej centrum, co czyni je dobrym miejscem na chwilę wytchnienia od zwiedzania. W sezonie kursują też stąd rejsy statkiem po Wiśle." },
-];
+// Atrakcje i opisy dzielnic (PL + EN) żyją w js/config-data.js — jedno źródło dla strony i backendu.
+const SHARED = require("../../js/config-data.js");
+const ATTRACTIONS_RAW = SHARED.ATTRACTIONS_RAW;
+const AREA_INTRO = SHARED.AREA_INTRO;
 
 function buildAttractions(){
   return ATTRACTIONS_RAW.map((a, i) => {
@@ -139,7 +99,9 @@ function buildSeedContent(){
         title: "Parking dla naszych gości",
         location: "ul. Lubicz 17a",
         price: "80 zł / doba",
-        description: "Dla gości naszych apartamentów przy Starym Mieście oferujemy miejsce na bezpiecznym, strzeżonym parkingu podziemnym przy ulicy Lubicz 17a — kilka minut spacerem od Floriańskiej i Rynku Głównego. Liczba miejsc jest ograniczona, dlatego parking wymaga wcześniejszej rezerwacji.",
+        description: "Dla gości mieszkających w naszych apartamentach na Starym Mieście oferujemy miejsce na bezpiecznym, strzeżonym parkingu podziemnym przy ulicy Lubicz 17a — kilka minut spacerem od Floriańskiej i Rynku Głównego. Liczba miejsc jest ograniczona, dlatego parking wymaga wcześniejszej rezerwacji.",
+        price_en: "80 PLN / day",
+        description_en: "For guests staying in our Old Town apartments we offer a space in a safe, guarded underground car park at Lubicz 17a — a few minutes' walk from Floriańska Street and the Main Market Square. The number of spaces is limited, so parking must be booked in advance.",
         images: [
           "/assets/images/parking-wjazd.jpg",
           "/assets/images/parking-wnetrze.jpg",
@@ -150,6 +112,8 @@ function buildSeedContent(){
         hours: "8:30–9:30",
         price: "40 zł / osoba",
         description: "Każdego ranka dostarczamy do apartamentu świeże śniadanie kontynentalne — pieczywo, wędliny i sery, dżemy, nabiał oraz dodatki, w zależności od dostępności sezonowej.",
+        price_en: "40 PLN / person",
+        description_en: "Every morning we deliver a fresh continental breakfast to your apartment — bread, cold cuts and cheeses, jams, dairy and extras, depending on seasonal availability.",
         images: [
           placeholderImage("Śniadanie P&J Apartamenty", "sniadania-1"),
           placeholderImage("Śniadanie P&J Apartamenty", "sniadania-2"),

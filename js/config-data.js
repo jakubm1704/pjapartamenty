@@ -34,9 +34,6 @@ const CONFIG = {
   // PODMIEŃ na właściwe adresy profili (dziś: strony główne serwisów).
   facebookUrl: "https://www.facebook.com/PJapartments/",
   instagramUrl: "https://www.instagram.com/pj_apartments",
-  // Adres angielskiej wersji strony (np. "en/index.html"). Dopóki puste,
-  // przełącznik EN jest widoczny, ale nieaktywny ("wkrótce").
-  englishSiteUrl: "",
   // Narzędzia analityczne i reklamowe. Wpisz identyfikatory — dopóki są puste, nic się nie ładuje i baner zgody się nie pokazuje.
   tracking: {
     gaMeasurementId: "",   // np. "G-XXXXXXXXXX" (Google Analytics 4)
@@ -45,23 +42,38 @@ const CONFIG = {
   googleReviewsUrl: "https://maps.app.goo.gl/SQtUV1TEZ6nnmDgn6",
   // Opinie z wizytówki Google. Dodawaj kolejne w tej samej formie: { name, rating (1-5), text }.
   reviews: [
-    { name: "Małgorzata Skroban", rating: 5, text: "Apartament przestronny z dużą łazienką, aneksem i antresolą. jedyny minus to czwartek piętro. Obsługa pomocna, po zgłoszeniu awarii klimatyzacji, została on…" },
-    { name: "Tomasz Kulis", rating: 5, text: "Super." },
-    { name: "Dominik Gomuła", rating: 5, text: "P&J zapewniło nam mieszkanie „z duszą”, dzięki któremu mogliśmy poczuć się jak rodowici krakowianie. Doświadczyliśmy niezwykłej podróży w…" }
+    { name: "Małgorzata Skroban", rating: 5, text: "Apartament przestronny z dużą łazienką, aneksem i antresolą. jedyny minus to czwartek piętro. Obsługa pomocna, po zgłoszeniu awarii klimatyzacji, została on…",
+      text_en: "Spacious apartment with a large bathroom, a kitchenette and a mezzanine. The only downside is the fourth floor. Helpful staff — after an air-conditioning fault was reported, it was…" },
+    { name: "Tomasz Kulis", rating: 5, text: "Super.", text_en: "Great." },
+    { name: "Dominik Gomuła", rating: 5, text: "P&J zapewniło nam mieszkanie „z duszą”, dzięki któremu mogliśmy poczuć się jak rodowici krakowianie. Doświadczyliśmy niezwykłej podróży w…",
+      text_en: "P&J gave us an apartment “with soul”, which let us feel like true locals of Kraków. We experienced an extraordinary journey in…" }
   ],
 };
 
+/* Język strony: <html lang="en"> w podstronach /en/…, w pozostałych polski. */
+const LANG = (typeof document !== "undefined" && document.documentElement && document.documentElement.lang === "en") ? "en" : "pl";
+
+/* Pole w wybranym języku: obj.<pole>_en (jeśli jest) albo polskie obj.<pole>. */
+function tr(obj, field, lang){
+  lang = lang || LANG;
+  if (lang === "en"){
+    const v = obj && obj[field + "_en"];
+    if (v) return v;
+  }
+  return obj ? obj[field] : "";
+}
+
 // Kategorie apartamentów używane w wyszukiwarce, module kategorii i filtrach.
 const CATEGORIES = [
-  { id: "studio",  label: "Studio",         bedrooms: 0, desc: "Otwarta przestrzeń do spania i wypoczynku — idealna dla 1–2 osób." },
-  { id: "1-sypialnia", label: "1 sypialnia", bedrooms: 1, desc: "Osobna sypialnia i salon — komfort dla pary lub małej rodziny." },
-  { id: "2-sypialnie",  label: "2 sypialnie", bedrooms: 2, desc: "Dwie sypialnie i salon — dobry wybór dla grupy znajomych lub rodziny." },
-  { id: "3-plus",       label: "3+ sypialnie", bedrooms: 3, desc: "Przestronne apartamenty dla większych grup i dłuższych pobytów." },
+  { id: "studio",  label: "Studio",         label_en: "Studio",        bedrooms: 0, desc: "Otwarta przestrzeń do spania i wypoczynku — idealna dla 1–2 osób.", desc_en: "Open-plan space to sleep and relax — ideal for 1–2 guests." },
+  { id: "1-sypialnia", label: "1 sypialnia", label_en: "1 bedroom",    bedrooms: 1, desc: "Osobna sypialnia i salon — komfort dla pary lub małej rodziny.", desc_en: "A separate bedroom and living room — comfort for a couple or a small family." },
+  { id: "2-sypialnie",  label: "2 sypialnie", label_en: "2 bedrooms",  bedrooms: 2, desc: "Dwie sypialnie i salon — dobry wybór dla grupy znajomych lub rodziny.", desc_en: "Two bedrooms and a living room — a good choice for a group of friends or a family." },
+  { id: "3-plus",       label: "3+ sypialnie", label_en: "3+ bedrooms", bedrooms: 3, desc: "Przestronne apartamenty dla większych grup i dłuższych pobytów.", desc_en: "Spacious apartments for larger groups and longer stays." },
 ];
 
-function categoryLabel(id){
+function categoryLabel(id, lang){
   const c = CATEGORIES.find(c => c.id === id);
-  return c ? c.label : id;
+  return c ? tr(c, "label", lang) : id;
 }
 
 /* ---------------------------------------------------------
@@ -85,6 +97,13 @@ const PLACEHOLDER_PALETTES = [
   ["#241C12", "#3A2F1E"],
 ];
 
+/* Zdjęcia zapisane jako ścieżka względna (np. „assets/images/x.jpg”) na stronach /en/ trzeba
+   cofnąć o folder wyżej. Adresy „/uploads/…”, „http…” i „data:…” zostają bez zmian. */
+function assetUrl(u){
+  if (LANG !== "en" || !u || /^(\/|[a-z][a-z0-9+.-]*:|\.\.\/)/i.test(u)) return u;
+  return "../" + u;
+}
+
 function placeholderImage(label, seed){
   const h = hashString(String(seed) + label);
   const [c1, c2] = PLACEHOLDER_PALETTES[h % PLACEHOLDER_PALETTES.length];
@@ -104,7 +123,7 @@ function placeholderImage(label, seed){
       <text x="50%" y="52%" font-family="Georgia, serif" font-size="34" fill="#FFFDF8"
             text-anchor="middle" dominant-baseline="middle">${label}</text>
       <text x="50%" y="60%" font-family="Arial, sans-serif" font-size="15" letter-spacing="1"
-            fill="#FFFDF8" fill-opacity="0.75" text-anchor="middle">zdjęcie przykładowe</text>
+            fill="#FFFDF8" fill-opacity="0.75" text-anchor="middle">${LANG === "en" ? "sample photo" : "zdjęcie przykładowe"}</text>
     </svg>`.trim();
   return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
 }
@@ -227,24 +246,72 @@ function slugify(text){
 /* „dla 1 osoby”, „dla 4 osób” */
 function plPersonsGen(n){ return n === 1 ? "osoby" : "osób"; }
 
-function typeLabel(bedrooms){
+function enOrdinal(n){
+  const s = ["th", "st", "nd", "rd"], v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+}
+
+function typeLabel(bedrooms, lang){
+  lang = lang || LANG;
+  if (lang === "en"){
+    if (bedrooms === 0) return "Studio";
+    return bedrooms === 1 ? "1 bedroom" : bedrooms + " bedrooms";
+  }
   if (bedrooms === 0) return "Studio";
   return bedrooms === 1 ? "1 sypialnia" : bedrooms + " sypialnie";
 }
 
-function floorLabel(floor){
+function floorLabel(floor, lang){
+  lang = lang || LANG;
   if (floor === null || floor === undefined || floor === "") return "";
+  if (lang === "en") return Number(floor) === 0 ? "Ground floor" : enOrdinal(Number(floor)) + " floor";
   return Number(floor) === 0 ? "Parter" : Number(floor) + ". piętro";
 }
 
-function bedsLabel(beds){
+function bedsLabel(beds, lang){
+  lang = lang || LANG;
   if (!beds) return "";
   const parts = [];
+  if (lang === "en"){
+    if (beds.double)  parts.push(beds.double  + "× double bed");
+    if (beds.single)  parts.push(beds.single  + "× single bed");
+    if (beds.sofaBed) parts.push(beds.sofaBed + "× sofa bed");
+    if (beds.sofa)    parts.push(beds.sofa    + "× sofa (non-folding)");
+    return parts.join(", ");
+  }
   if (beds.double)  parts.push(beds.double  + "× łóżko podwójne");
   if (beds.single)  parts.push(beds.single  + "× łóżko pojedyncze");
   if (beds.sofaBed) parts.push(beds.sofaBed + "× sofa rozkładana");
   if (beds.sofa)    parts.push(beds.sofa    + "× sofa (nierozkładana)");
   return parts.join(", ");
+}
+
+/* Standardowe udogodnienia po angielsku. Własne wpisy z panelu /admin, których tu nie ma,
+   wyświetlają się bez tłumaczenia — albo wpisz ich angielską wersję w polu „Udogodnienia (EN)”. */
+const AMENITY_EN = {
+  "Klimatyzacja": "Air conditioning", "Wanna": "Bathtub", "Balkon": "Balcony", "Pralka": "Washing machine",
+  "Wi-Fi": "Wi-Fi", "Telewizor": "TV",
+  "Aneks kuchenny lub kuchnia z wyposażeniem": "Kitchenette or kitchen with equipment",
+  "Łazienka": "Bathroom", "Suszarka do włosów": "Hair dryer", "Pościel": "Bed linen",
+};
+function amenityLabel(name, lang){
+  lang = lang || LANG;
+  return lang === "en" ? (AMENITY_EN[name] || name) : name;
+}
+function amenitiesFor(apt, lang){
+  lang = lang || LANG;
+  if (lang === "en" && Array.isArray(apt.amenities_en) && apt.amenities_en.length) return apt.amenities_en;
+  return (apt.amenities || []).map(n => amenityLabel(n, lang));
+}
+
+/* Adres po angielsku: „ul. Floriańska, Kraków” → „Floriańska St., Kraków”. */
+function addressLabel(apt, lang){
+  lang = lang || LANG;
+  if (lang === "en"){
+    if (apt.address_en) return apt.address_en;
+    return String(apt.address || "").replace(/^ul\.\s+(.+?),/, "$1 St.,");
+  }
+  return apt.address;
 }
 
 function buildApartment(r){
@@ -273,11 +340,20 @@ function buildApartment(r){
     `Optymalnie dla ${guests} ${plPersonsGen(guests)}.` +
     (area ? ` Powierzchnia ${area} m².` : "");
 
+  const kindEn = bedrooms === 0 ? "a studio" : bedrooms === 1 ? "a one-bedroom apartment"
+    : bedrooms === 2 ? "a two-bedroom apartment" : bedrooms === 3 ? "a three-bedroom apartment"
+    : "a four-bedroom apartment";
+  const floorTxtEn = floor === null ? "" : (floor === 0 ? " on the ground floor" : ` on the ${enOrdinal(floor)} floor`);
+  const description_en =
+    `${name} — ${kindEn}${floorTxtEn} in the centre of Kraków, within walking distance of the Main Market Square. ` +
+    `Ideal for ${guests} ${guests === 1 ? "guest" : "guests"}.` +
+    (area ? ` Floor area: ${area} m².` : "");
+
   return {
     id, slug: slugify(name), name, category, bedrooms, floor, area,
     guests, capacity: guests,
     beds: { double: dbl, single, sofaBed, sofa },
-    address, description, images: [], amenities,
+    address, description, description_en, images: [], amenities,
   };
 }
 
@@ -297,18 +373,20 @@ function getApartmentBySlug(slug){
    otwarta bez backendu (jako pliki na dysku albo na zwykłym hostingu statycznym),
    używamy adresu apartament.html?id=…, który działa wszędzie. */
 let BACKEND_ONLINE = false;
-function apartmentUrl(a){
+function apartmentUrl(a, lang){
+  lang = lang || LANG;
+  if (lang === "en") return (BACKEND_ONLINE && a.slug) ? "/en/" + a.slug : "apartment.html?id=" + a.id;
   return (BACKEND_ONLINE && a.slug) ? "/" + a.slug : "apartament.html?id=" + a.id;
 }
 
 /* Zdjęcia apartamentu — jeśli nie wgrano jeszcze żadnych, pokazujemy placeholdery. */
 function apartmentImages(a){
-  if (a.images && a.images.length) return a.images;
+  if (a.images && a.images.length) return a.images.map(assetUrl);
   return [
     placeholderImage(a.name, a.id + "-a"),
-    placeholderImage(a.name + " — salon", a.id + "-b"),
-    placeholderImage(a.name + " — sypialnia", a.id + "-c"),
-    placeholderImage(a.name + " — łazienka", a.id + "-d"),
+    placeholderImage(a.name + (LANG === "en" ? " — living room" : " — salon"), a.id + "-b"),
+    placeholderImage(a.name + (LANG === "en" ? " — bedroom" : " — sypialnia"), a.id + "-c"),
+    placeholderImage(a.name + (LANG === "en" ? " — bathroom" : " — łazienka"), a.id + "-d"),
   ];
 }
 
@@ -326,6 +404,17 @@ const AREA_INTRO = {
   "Kazimierz": "Dawna żydowska dzielnica Krakowa, dziś jedna z najbardziej klimatycznych części miasta — kilkanaście minut spacerem od Floriańskiej.",
   "Podgórze": "Po drugiej stronie Wisły, naprzeciw Kazimierza — dzielnica naznaczona historią II wojny światowej i dziś tętniąca nowym życiem.",
 };
+
+const AREA_LABEL_EN = { "Stare Miasto": "Old Town", "Kazimierz": "Kazimierz", "Podgórze": "Podgórze" };
+const AREA_INTRO_EN = {
+  "Stare Miasto": "The heart of Kraków, a UNESCO World Heritage Site — and the immediate neighbourhood of our apartments.",
+  "Kazimierz": "The former Jewish quarter of Kraków, today one of the most atmospheric parts of the city — a dozen or so minutes' walk from Floriańska Street.",
+  "Podgórze": "Across the Vistula from Kazimierz — a district marked by the history of the Second World War and today full of new life.",
+};
+function areaLabel(area, lang){
+  lang = lang || LANG;
+  return lang === "en" ? (AREA_LABEL_EN[area] || area) : area;
+}
 
 const ATTRACTIONS_RAW = [
   { name: "Rynek Główny i Sukiennice", area: "Stare Miasto",
@@ -368,6 +457,47 @@ const ATTRACTIONS_RAW = [
     longDesc: "Bulwary nad Wisłą to ulubione miejsce mieszkańców Krakowa na spacer, przejażdżkę rowerem czy wieczorny odpoczynek z widokiem na podświetlony Wawel. Po stronie podgórskiej bulwary są nieco spokojniejsze niż te bliżej centrum, co czyni je dobrym miejscem na chwilę wytchnienia od zwiedzania. W sezonie kursują też stąd rejsy statkiem po Wiśle." },
 ];
 
+/* Angielskie wersje atrakcji — w tej samej kolejności co ATTRACTIONS_RAW. */
+const ATTRACTIONS_EN = [
+  { name_en: "Main Market Square and the Cloth Hall",
+    shortDesc_en: "Europe's largest medieval market square, just minutes from Floriańska Street. At its heart stands the Renaissance Cloth Hall with its craft stalls.",
+    longDesc_en: "The Main Market Square is the heart of Kraków and one of the largest medieval town squares in Europe — only a few minutes' walk from our apartments on Floriańska Street. In the middle of the square stands the Renaissance Cloth Hall, a former trading hall that is now full of souvenir and handicraft stalls, with an underground museum beneath it telling the story of medieval Kraków. Around the square you will find cafés, restaurants and street performers — the natural starting point for any visit to the city." },
+  { name_en: "St. Mary's Basilica",
+    shortDesc_en: "A Gothic church with the Veit Stoss altarpiece — every hour a bugle call (the hejnał) sounds from the taller tower, audible across the centre.",
+    longDesc_en: "St. Mary's Basilica is a Gothic church on the Main Market Square, known for its asymmetrical towers and the monumental wooden altarpiece by Veit Stoss (Wit Stwosz) inside. Every hour the hejnał mariacki, a bugle call, rings out from the taller tower — a melody that breaks off at the same characteristic point, recalling the legend of a watchman interrupted by an invasion. It is worth climbing the viewing tower, from which you can see the whole Old Town." },
+  { name_en: "St. Florian's Gate and the Barbican",
+    shortDesc_en: "A surviving fragment of Kraków's old defensive walls — right at the end of Floriańska Street, where you are staying.",
+    longDesc_en: "St. Florian's Gate and the nearby Barbican are the best-preserved fragment of Kraków's medieval defensive walls — and literally the point where Floriańska Street begins, the street on which our apartments are located. The Barbican, a round fortress with turrets, is one of the few such well-preserved defensive structures of its kind in Europe. It is the natural gateway to the Old Town — this is where walks towards the Main Market Square begin." },
+  { name_en: "Wawel — Castle and Cathedral",
+    shortDesc_en: "The royal hill with the castle, the coronation cathedral of Polish monarchs and the legendary Dragon's Den by the Vistula.",
+    longDesc_en: "Wawel Hill is a symbol of Polish statehood — it is home to the Royal Castle and the cathedral where Polish monarchs were crowned and buried for centuries. You can visit the state rooms, the private royal apartments, the treasury and the armoury, and at the foot of the hill, right by the Vistula, lies the legendary Dragon's Den. It is one of the most visited places in Poland — it is worth booking tickets for specific times in advance." },
+  { name_en: "Floriańska Street",
+    shortDesc_en: "One of Kraków's oldest and most prestigious streets, linking the Main Market Square with St. Florian's Gate — full of cafés, restaurants and shops.",
+    longDesc_en: "Floriańska Street, where our apartments are located, is one of the oldest and most prestigious routes in Kraków, connecting the Main Market Square with St. Florian's Gate. It is lined with townhouses rich in history, and their ground floors house cafés, restaurants and shops, so you can take care of most everyday needs without going far from your apartment. It is also part of the Royal Route, along which coronation processions once passed." },
+  { name_en: "Planty Park",
+    shortDesc_en: "A ring of parkland around the Old Town on the site of the former defensive walls — perfect for a relaxed walk between sights.",
+    longDesc_en: "Planty is a green belt encircling the whole Old Town on the site of the former medieval walls, which were demolished in the early 19th century. It is a favourite place for walks for locals and visitors alike — with paths, benches and monuments, ideal for a moment of rest between sights. Walking all the way around Planty takes about half an hour." },
+  { name_en: "Plac Nowy",
+    shortDesc_en: "The heart of Kazimierz nightlife — a market by day, a cluster of bars and cult zapiekanki (open-faced baguettes) after dark.",
+    longDesc_en: "Plac Nowy is the informal centre of Kazimierz — a local market runs here by day, and after dark the square and surrounding lanes fill with guests of cafés and bars. It is also the birthplace of Kraków's cult zapiekanki, sold from the round pavilion in the middle of the square, open practically around the clock. From here it is only a short walk to most of the atmospheric corners of the district." },
+  { name_en: "Synagogues and Jewish heritage",
+    shortDesc_en: "The Old Synagogue, the Remuh Synagogue with its cemetery and the Tempel Synagogue recall the district's centuries-long history.",
+    longDesc_en: "For centuries Kazimierz was the centre of Jewish life in Kraków, and traces of that history are visible to this day — the Old Synagogue (now a branch of the Museum of Kraków), the Remuh Synagogue with its historic cemetery and the Art Nouveau Tempel Synagogue are only some of the surviving sites. Many of them can be visited inside, learning about the community that helped shape the district for more than five hundred years." },
+  { name_en: "The quiet streets of Kazimierz",
+    shortDesc_en: "Kazimierz is also cafés, galleries and local eateries in atmospheric small townhouses — ideal for exploring without a plan.",
+    longDesc_en: "Beyond the well-known points on the map, Kazimierz is best discovered without a specific plan — just turn into a side street to find an intimate café, an art gallery or a local eatery in a small Art Nouveau townhouse. It is a district where it is worth simply slowing down and letting chance guide you." },
+  { name_en: "Oskar Schindler's Enamel Factory",
+    shortDesc_en: "The museum in Schindler's former factory tells the story of occupied Kraków — one of the most important historical routes in the city.",
+    longDesc_en: "The former Oskar Schindler's Enamel Factory now houses a branch of the Museum of Kraków devoted to the German occupation of 1939–1945. The exhibition tells the story of the city and its inhabitants in that period in an accessible, multimedia way, including the fate of the workers employed by Schindler. It is one of the most important and most visited historical routes in Kraków — it is worth booking a ticket in advance." },
+  { name_en: "Ghetto Heroes Square",
+    shortDesc_en: "A memorial site of the former Kraków ghetto, with an installation of empty chairs commemorating its inhabitants.",
+    longDesc_en: "Ghetto Heroes Square was the central point of the Kraków ghetto during the war. Today it is commemorated by an installation of several dozen empty metal chairs — a symbol of the residents who were displaced and murdered during the occupation. Next to the square stands the former Eagle Pharmacy (Apteka pod Orłem), another branch of the Museum of Kraków, run by a Polish pharmacist who helped the ghetto's inhabitants." },
+  { name_en: "Vistula Boulevards",
+    shortDesc_en: "Walking and cycling boulevards along the Vistula with a view of Wawel — a great place for an evening stroll.",
+    longDesc_en: "The boulevards along the Vistula are a favourite place for Kraków residents to walk, cycle or relax in the evening with a view of the illuminated Wawel. On the Podgórze side the boulevards are slightly quieter than those closer to the centre, which makes them a good place for a break from sightseeing. In season, boat cruises on the Vistula depart from here too." },
+];
+ATTRACTIONS_RAW.forEach((a, i) => Object.assign(a, ATTRACTIONS_EN[i] || {}));
+
 let ATTRACTIONS = ATTRACTIONS_RAW.map((a, i) => {
   const id = i + 1;
   return {
@@ -397,7 +527,9 @@ let PAGES = {
     title: "Parking dla naszych gości",
     location: "ul. Lubicz 17a",
     price: "80 zł / doba",
-    description: "Dla gości naszych apartamentów przy Starym Mieście oferujemy miejsce na bezpiecznym, strzeżonym parkingu podziemnym przy ulicy Lubicz 17a — kilka minut spacerem od Floriańskiej i Rynku Głównego.",
+    description: "Dla gości mieszkających w naszych apartamentach na Starym Mieście oferujemy miejsce na bezpiecznym, strzeżonym parkingu podziemnym przy ulicy Lubicz 17a — kilka minut spacerem od Floriańskiej i Rynku Głównego.",
+    price_en: "80 PLN / day",
+    description_en: "For guests staying in our Old Town apartments we offer a space in a safe, guarded underground car park at Lubicz 17a — a few minutes' walk from Floriańska Street and the Main Market Square.",
     images: [
       "assets/images/parking-wjazd.jpg",
       "assets/images/parking-wnetrze.jpg",
@@ -408,6 +540,8 @@ let PAGES = {
     hours: "8:30–9:30",
     price: "40 zł / osoba",
     description: "Każdego ranka dostarczamy do apartamentu świeże śniadanie kontynentalne — pieczywo, wędliny i sery, dżemy, nabiał oraz dodatki, w zależności od dostępności sezonowej.",
+    price_en: "40 PLN / person",
+    description_en: "Every morning we deliver a fresh continental breakfast to your apartment — bread, cold cuts and cheeses, jams, dairy and extras, depending on seasonal availability.",
     images: [
       placeholderImage("Śniadanie P&J Apartamenty", "sniadania-1"),
       placeholderImage("Śniadanie P&J Apartamenty", "sniadania-2"),
@@ -461,8 +595,12 @@ async function refreshFromBackend(){
 /* Eksport dla backendu (Node) — seed.js korzysta z tej samej listy apartamentów. */
 /* Wersja danych apartamentów — zwiększ po każdej zmianie listy w APARTMENTS_RAW.
    Backend porównuje ją z zapisaną w bazie i odświeża listę (zachowując wgrane zdjęcia). */
-const APARTMENTS_DATA_VERSION = 4;
+const APARTMENTS_DATA_VERSION = 6;
 
 if (typeof module !== "undefined" && module.exports){
-  module.exports = { APARTMENTS_RAW, APARTMENTS_DATA_VERSION, buildApartment, slugify, CATEGORIES };
+  module.exports = {
+    APARTMENTS_RAW, APARTMENTS_DATA_VERSION, buildApartment, slugify, CATEGORIES,
+    ATTRACTIONS_RAW, AREA_INTRO, AREA_INTRO_EN, AREA_LABEL_EN, AMENITY_EN,
+    typeLabel, floorLabel, bedsLabel, amenityLabel, amenitiesFor, addressLabel, enOrdinal,
+  };
 }

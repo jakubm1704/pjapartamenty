@@ -1,0 +1,11 @@
+{
+  "name": "pj-apartamenty",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strona P&J Apartamenty (Kraków) + backend z panelem /admin. Hosting uruchamia: npm install, potem npm start.",
+  "scripts": {
+    "postinstall": "npm install --prefix backend --omit=dev",
+    "start": "node backend/server.js"
+  },
+  "engines": { "node": ">=18" }
+}
